@@ -7,4 +7,8 @@
     width: 90%;
     height: auto;
     border: 2px solid black;
+    row-gap:10px;
+    background-color: white;
+	grid-template-columns: repeat(12,1fr);
+	grid-template-rows: auto;
 }

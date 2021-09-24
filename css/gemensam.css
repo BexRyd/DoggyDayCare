@@ -1,4 +1,7 @@
 body{
+display:flex;
+width: 100%;
+justify-content: center;
 background-image:url(../img/dog-313357_960_720.jpg);
 }
 

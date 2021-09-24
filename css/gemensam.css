@@ -2,6 +2,8 @@ body{
 background-image:url(../img/dog-313357_960_720.jpg);
 }
 
+/*variabler*/
+
 :root{
     --backgrund-nav:rgba(38, 51, 67, 0.8);
 }
@@ -25,6 +27,6 @@ background-image:url(../img/dog-313357_960_720.jpg);
     width: 90%;
     grid-area: header;
     border:1px solid black;
-    background-color: var(--backgrund-nav);
+    background-color:var(--backgrund-nav);
     height: 100px;
 }

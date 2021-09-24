@@ -39,7 +39,7 @@
     grid-template-columns: repeat(6,1fr);
 	grid-template-rows: auto;
     grid-template-areas: 
-    "textbox-routines textbox-routines textbox-routines pomeranian-img pugs-img pugs-img";
+    "textbox-routines textbox-routines textbox-routines textbox-routines pomeranian-img pugs-img ";
     height: auto;
     margin: auto;
 }

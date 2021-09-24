@@ -36,7 +36,14 @@ background-image:url(../img/dog-313357_960_720.jpg);
     background-color: var(--background-header-nav);
     height: 100px;
 }
-
+    .nav-text{ 
+    order:2;
+    padding-right: 2%;
+    width:50%;
+    height: 100%;
+    margin-top:3%;
+    margin-left:10%;
+    }
 
 /*listan/menyn*/
 
@@ -71,6 +78,7 @@ li.meny{
 /* positionering logga */
 
 .logga{
+    order: 1;
     padding-top: 0px;
     width: 40%;
     height: auto;

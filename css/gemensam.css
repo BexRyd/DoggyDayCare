@@ -74,7 +74,7 @@ background-image:url(../img/dog-313357_960_720.jpg);
 /*listan/menyn*/
 
 
-#header-nav{
+li.meny{
     display: inline;  
     list-style-type:none;
     margin:2%;

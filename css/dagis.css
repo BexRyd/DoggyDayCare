@@ -19,6 +19,7 @@
     "price-list"
 
 }
+/*grids container for routines*/
 
 #routines-container{
     display: grid;
@@ -26,9 +27,27 @@
     grid-template-columns: repeat(3,1fr);
 	grid-template-rows: auto;
     grid-template-areas: 
-    "text-box-routines pomeraninan-img pugs-img";
+    "textbox-routines pomeranian-img pugs-img";
     height: auto;
 }
+
+/*grid-area for container routines*/
+
+#textbox-routines{
+  grid-area: textbox-routines;
+}
+#pomeranian-img{
+  grid-area:pomeranian-img;
+    
+}
+#pugs-img{
+  grid-area:pugs-img;
+    
+}
+
+/*grid-area for main container*/
+
+
 #list-routines-container{
     grid-area: list-routines-container;
     height: auto;

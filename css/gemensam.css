@@ -3,7 +3,7 @@ background-image:url(../img/dog-313357_960_720.jpg);
 }
 
 :root{
-    --backgrund-nav:rgba(38, 51, 67, 0.8);
+    --background-header-nav:rgba(38, 51, 67, 0.8);
 }
 
 .Grids-Container{
@@ -17,7 +17,7 @@ background-image:url(../img/dog-313357_960_720.jpg);
 	grid-template-rows: auto;
 }
 
-#header{
+#header-nav{
     display: flex;
     flex-direction: row;
     position: fixed;
@@ -25,6 +25,6 @@ background-image:url(../img/dog-313357_960_720.jpg);
     width: 90%;
     grid-area: header;
     border:1px solid black;
-    background-color: var(--backgrund-nav);
+    background-color: var(--background-header-nav);
     height: 100px;
 }

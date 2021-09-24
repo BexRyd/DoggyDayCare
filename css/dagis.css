@@ -21,7 +21,12 @@
 }
 
 #routines-container{
+    display: grid;
     grid-area: routines-container;
+    grid-template-columns: repeat(3,1fr);
+	grid-template-rows: auto;
+    grid-template-areas: 
+    "text-box-routines pomeraninan-img pugs-img";
     height: auto;
 }
 #list-routines-container{

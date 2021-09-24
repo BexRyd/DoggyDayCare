@@ -8,9 +8,11 @@
     display: grid;
     width: 100%;
     height: auto;
+    margin-top:5%; 
     grid-template-columns: repeat(1,1fr);
 	grid-template-rows: auto;
-    grid-template-areas: 
+    grid-template-areas:
+    
 
     "routines-container"
     "list-routines-container"
@@ -20,10 +22,45 @@
 
 }
 
-#routines-container{
-    grid-area: routines-container;
-    height: auto;
+#header-img{
+    display: flex;
+    justify-content: center;
 }
+/*grids container for routines*/
+
+#routines-container{
+
+    width: 100%;
+    display: grid;
+    grid-area: routines-container;
+    grid-template-columns: repeat(6,1fr);
+	grid-template-rows: auto;
+    grid-template-areas: 
+    "textbox-routines textbox-routines textbox-routines pomeranian-img pugs-img pugs-img";
+    height: auto;
+    margin: auto;
+}
+
+/*grid-area for container routines*/
+
+#textbox-routines{
+  grid-area: textbox-routines;
+  padding-left:8%;
+  padding-right:8%;
+  
+}
+#pomeranian-img{
+  grid-area:pomeranian-img;
+    
+}
+#pugs-img{
+  grid-area:pugs-img;
+    
+}
+
+/*grid-area for main container*/
+
+
 #list-routines-container{
     grid-area: list-routines-container;
     height: auto;

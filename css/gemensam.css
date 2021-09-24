@@ -51,6 +51,11 @@ background-image:url(../img/dog-313357_960_720.jpg);
     margin-left:10%;
     }
 
+    #active{
+        color:white;
+        text-decoration: underline;
+    }
+
 
 #header-img{
     grid-area: header-img;

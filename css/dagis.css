@@ -32,6 +32,7 @@
 
     width: 100%;
     display: grid;
+    column-gap:5%;
     grid-area: routines-container;
     grid-template-columns: repeat(6,1fr);
 	grid-template-rows: auto;
@@ -45,16 +46,18 @@
 
 #textbox-routines{
   grid-area: textbox-routines;
-  padding-left:8%;
-  padding-right:8%;
+  padding-left:12%;
+  padding-right:5%;
   
 }
 #pomeranian-img{
   grid-area:pomeranian-img;
+  border-radius: 50%;
     
 }
 #pugs-img{
   grid-area:pugs-img;
+  border-radius: 40%;
     
 }
 
@@ -77,3 +80,39 @@
     grid-area: price-list;
     height: auto;
 }
+
+/*list for routines*/ 
+   #open{
+    list-style-image: url(../img/open-1.png);
+    }
+    #Walk1{
+    list-style-image: url(../img/Koppel-ikon.png);
+    }
+    #food{
+    list-style-image: url(../img/food-ikon.png);
+    }
+    #rest{
+    list-style-image: url(../img/rest.png);
+    }
+    #walk2{
+    list-style-image: url(../img/Koppel-ikon.png);
+    }
+    #home{
+    list-style-image: url(../img/home-1.png);
+    }
+    #close{
+    list-style-image: url(../img/close-1.png);
+    }
+
+    /*container-list flexbox*/
+
+    #list-routines-container{
+        margin-top: 2%;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-evenly;
+    }
+
+    #bulldog-pic{
+        border-radius: 20%;
+    }

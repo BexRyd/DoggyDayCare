@@ -83,9 +83,9 @@ background-image:url(../img/dog-313357_960_720.jpg);
     color:var(--Text_Color_1);
 }
 
-.li.meny li:hover{
+.li.meny :hover{
     display: inline;
-    background-color: ;
+    background-color:white ;
     border-radius: 1%;
     margin: 2%
 }

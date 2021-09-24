@@ -46,7 +46,7 @@ background-image:url(../img/dog-313357_960_720.jpg);
     order:2;
     padding-right: 2%;
     width:50%;
-    height: 100%;
+    height: auto;
     margin-top:3%;
     margin-left:10%;
     }
@@ -98,7 +98,7 @@ li.meny{
 /* positionering logga */
 
 .logga{
-    order: 1;
+   order: 1;
     padding-top: 0px;
     width: 40%;
     height: auto;

@@ -22,16 +22,21 @@
 
 #routines-container{
     grid-area: routines-container;
+    height: auto;
 }
 #list-routines-container{
     grid-area: list-routines-container;
+    height: auto;
 }
 #Rules-container{
     grid-area: Rules-container;
+    height: auto;
 }
 #disease-container{
     grid-area: disease-container;
+    height: auto;
 }
 #price-list{
     grid-area: price-list;
+    height: auto;
 }

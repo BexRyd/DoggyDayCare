@@ -94,6 +94,11 @@ h1,h2{
   color:var(--Text_Color_1)
 }
 
+p,li{
+    font-family:paragraph-font;
+    color:var(--paragraf);
+}
+
 
 /*font-face*/
 

@@ -42,6 +42,21 @@ background-image:url(../img/dog-313357_960_720.jpg);
     height: 100px;
 }
 
+    .nav-text{ 
+    order:2;
+    padding-right: 2%;
+    width:50%;
+    height: auto;
+    margin-top:3%;
+    margin-left:10%;
+    }
+
+    #active{
+        color:white;
+        text-decoration: underline;
+    }
+
+
 #header-img{
     grid-area: header-img;
 }
@@ -50,7 +65,10 @@ background-image:url(../img/dog-313357_960_720.jpg);
 }
 #footer{
     grid-area:footer;
+    height: auto;
+    background-color: var(--background-header-nav);
 }
+
 
 /*listan/menyn*/
 
@@ -93,6 +111,7 @@ background-image:url(../img/dog-313357_960_720.jpg);
 /* positionering logga */
 
 .logga{
+   order: 1;
     padding-top: 0px;
     width: 40%;
     height: auto;

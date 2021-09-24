@@ -119,6 +119,31 @@
         border-radius: 20%;
     }
 
+    /*rules container*/
+    #Rules-container{
+     
+        display: flex;
+        height: auto;
+        flex-direction: row;
+        
+        
+
+       
+    }
+
+    #Rules-textbox{
+        margin-left: 15%;
+        width: 50%;
+        
+    }
+
+
+    #syringe{
+        padding:5%;
+       
+        height: auto;
+        border-radius: 50%;
+    }
 
     /*media queries*/
 

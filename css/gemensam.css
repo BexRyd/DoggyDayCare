@@ -1,0 +1,9 @@
+*{
+    box-sizing: border-box;
+}
+
+.Grids-Container{
+    display: grid;
+    width: 90%;
+    height: auto;
+    border: 2px solid black;

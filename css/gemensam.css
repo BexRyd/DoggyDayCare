@@ -5,13 +5,10 @@ background-image:url(../img/dog-313357_960_720.jpg);
 /*variabler*/
 
 :root{
-<<<<<<< HEAD
-    --backgrund-nav:rgba(38, 51, 67, 0.8);
+
     --Text_Color_1:#F77D26;
     --paragraf:#4d2600;
-=======
     --background-header-nav:rgba(38, 51, 67, 0.8);
->>>>>>> 162c10e3d3abc09fbfc06c6d6965c5cf34ea310c
 }
 
 .Grids-Container{

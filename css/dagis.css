@@ -1,4 +1,6 @@
-
+#meny-pic{
+    max-width: 90%;
+}
 
 /*main content container width grids*/
 
@@ -24,6 +26,7 @@
 #header-img{
     display: flex;
     justify-content: center;
+   
 }
 /*grids container for routines*/
 
@@ -114,4 +117,14 @@
 
     #bulldog-pic{
         border-radius: 20%;
+    }
+
+
+    /*media queries*/
+
+    @media screen and (max-width:1350px){
+        .meny-pic{
+            width:800px;
+            height: auto;
+        }
     }

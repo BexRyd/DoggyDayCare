@@ -32,6 +32,15 @@ background-image:url(../img/dog-313357_960_720.jpg);
     background-color: var(--background-header-nav);
     height: 100px;
 }
+/*listan/menyn*/
+li.meny{
+    display: inline;  
+    list-style-type:none;
+    margin:2%;
+    font-size:150%;
+    font-family:meny-font;
+    color:var(--Text_Color_1);
+}
 
 /*font-face*/
 

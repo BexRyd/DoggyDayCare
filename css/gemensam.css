@@ -89,6 +89,16 @@ li.meny{
     color:var(--Text_Color_1);
 }
 
+h1,h2{
+  font-family:meny-font;
+  color:var(--Text_Color_1)
+}
+
+p,li{
+    font-family:paragraph-font;
+    color:var(--paragraf);
+}
+
 
 /*font-face*/
 

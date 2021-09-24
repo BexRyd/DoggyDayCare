@@ -39,3 +39,8 @@ background-image:url(../img/dog-313357_960_720.jpg);
     font-family:paragraph-font;
     src:url(fonts/Tahoma\ Regular\ font.ttf);
     font-weight:bold;}
+
+ @font-face{
+     font-family:meny-font;
+     src:url(fonts/Comfortaa-Bold.ttf);
+    font-weight:bold;}

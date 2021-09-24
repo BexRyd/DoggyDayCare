@@ -12,3 +12,15 @@
 	grid-template-columns: repeat(12,1fr);
 	grid-template-rows: auto;
 }
+
+#header{
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    flex-wrap: nowrap;
+    width: 90%;
+    grid-area: header;
+    border:1px solid black;
+    background-color: var(--backgrund-nav);
+    height: 100px;
+}

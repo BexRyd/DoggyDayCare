@@ -91,7 +91,7 @@ li.meny{
     color:var(--Text_Color_1);
 }
 
-h1,h2{
+h1,h2,h3{
   font-family:meny-font;
   color:var(--Text_Color_1)
 }

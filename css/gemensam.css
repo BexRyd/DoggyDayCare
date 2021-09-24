@@ -1,5 +1,16 @@
-*{
-    box-sizing: border-box;
+body{
+display:flex;
+width: 100%;
+justify-content: center;
+background-image:url(../img/dog-313357_960_720.jpg);
+}
+
+/*variabler*/
+
+:root{
+    --Text_Color_1:#F77D26;
+    --paragraf:#4d2600;
+    --background-header-nav:rgba(38, 51, 67, 0.8);
 }
 
 .Grids-Container{
@@ -7,4 +18,105 @@
     width: 90%;
     height: auto;
     border: 2px solid black;
+    row-gap:10px;
+    background-color: white;
+	grid-template-columns: repeat(1,1fr);
+	grid-template-rows: auto;
+    grid-template-areas: 
+    "header-nav"
+    "header-img"
+    "main"
+    "footer";
 }
+/* header meny */
+
+#header-nav{
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    flex-wrap: nowrap;
+    width: 90%;
+    grid-area: header;
+    border:1px solid black;
+    background-color: var(--background-header-nav);
+    height: 100px;
+}
+
+    .nav-text{ 
+    order:2;
+    padding-right: 2%;
+    width:50%;
+    height: auto;
+    margin-top:3%;
+    margin-left:10%;
+    }
+
+    #active{
+        color:white;
+        text-decoration: underline;
+    }
+
+    li.meny:hover{
+        color:white;
+        text-shadow: 1px 1px 2px gray , 0 0 25px white, 0 0 5px black;
+    }
+
+
+#header-img{
+    grid-area: header-img;
+}
+#main{
+    grid-area:main;
+}
+#footer{
+    grid-area:footer;
+    height: auto;
+    background-color: var(--background-header-nav);
+}
+
+
+
+/*listan/menyn*/
+
+
+li.meny{
+    display: inline;  
+    list-style-type:none;
+    margin:2%;
+    font-size:150%;
+    
+    font-family:meny-font;
+    color:var(--Text_Color_1);
+}
+
+
+/*font-face*/
+
+@font-face{
+    font-family:paragraph-font;
+    src:url(../fonts/Tahoma\ Regular\ font.ttf);
+    font-weight:bold;}
+
+ @font-face{
+     font-family:meny-font;
+     src:url(../fonts/Comfortaa-Bold.ttf);
+    font-weight:bold;}
+
+@font-face{
+        font-family:navigation-font;
+        src:url(../fonts/Merienda-Bold.ttf);
+        font-weight:bold;}
+
+/* positionering logga */
+
+.logga{
+   order: 1;
+    padding-top: 0px;
+    width: 40%;
+    height: auto;
+    
+  
+}
+
+
+

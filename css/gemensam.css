@@ -55,15 +55,23 @@ background-image:url(../img/dog-313357_960_720.jpg);
 /*listan/menyn*/
 
 
-li.meny{
+#header-nav{
     display: inline;  
     list-style-type:none;
     margin:2%;
     font-size:150%;
-
+    
     font-family:meny-font;
     color:var(--Text_Color_1);
 }
+
+.li.meny li:hover{
+    display: inline;
+    background-color: ;
+    border-radius: 1%;
+    margin: 2%
+}
+
 
 /*font-face*/
 

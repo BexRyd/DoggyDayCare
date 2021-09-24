@@ -42,6 +42,15 @@ background-image:url(../img/dog-313357_960_720.jpg);
     height: 100px;
 }
 
+#header-img{
+    grid-area: header-img;
+}
+#main{
+    grid-area:main;
+}
+#footer{
+    grid-area:footer;
+}
 
 /*listan/menyn*/
 

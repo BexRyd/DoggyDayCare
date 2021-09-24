@@ -31,6 +31,7 @@ background-image:url(../img/dog-313357_960_720.jpg);
 /* header meny */
 
 #header-nav{
+
     display: flex;
     flex-direction: row;
     position: fixed;

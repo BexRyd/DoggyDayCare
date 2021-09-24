@@ -35,20 +35,29 @@ background-image:url(../img/dog-313357_960_720.jpg);
     background-color: var(--background-header-nav);
     height: 100px;
 }
+/*listan/menyn*/
+li.meny{
+    display: inline;  
+    list-style-type:none;
+    margin:2%;
+    font-size:150%;
+    font-family:meny-font;
+    color:var(--Text_Color_1);
+}
 
 /*font-face*/
 
 @font-face{
     font-family:paragraph-font;
-    src:url(fonts/Tahoma\ Regular\ font.ttf);
+    src:url(../fonts/Tahoma\ Regular\ font.ttf);
     font-weight:bold;}
 
  @font-face{
      font-family:meny-font;
-     src:url(fonts/Comfortaa-Bold.ttf);
+     src:url(../fonts/Comfortaa-Bold.ttf);
     font-weight:bold;}
 
 @font-face{
         font-family:navigation-font;
-        src:url(fonts/Merienda-Bold.ttf);
+        src:url(../fonts/Merienda-Bold.ttf);
         font-weight:bold;}

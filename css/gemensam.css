@@ -46,15 +46,15 @@ li.meny{
 
 @font-face{
     font-family:paragraph-font;
-    src:url(fonts/Tahoma\ Regular\ font.ttf);
+    src:url(../fonts/Tahoma\ Regular\ font.ttf);
     font-weight:bold;}
 
  @font-face{
      font-family:meny-font;
-     src:url(fonts/Comfortaa-Bold.ttf);
+     src:url(../fonts/Comfortaa-Bold.ttf);
     font-weight:bold;}
 
 @font-face{
         font-family:navigation-font;
-        src:url(fonts/Merienda-Bold.ttf);
+        src:url(../fonts/Merienda-Bold.ttf);
         font-weight:bold;}

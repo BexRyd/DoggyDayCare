@@ -20,8 +20,13 @@ background-image:url(../img/dog-313357_960_720.jpg);
     border: 2px solid black;
     row-gap:10px;
     background-color: white;
-	grid-template-columns: repeat(12,1fr);
+	grid-template-columns: repeat(1,1fr);
 	grid-template-rows: auto;
+    grid-template-areas: 
+    "header-nav"
+    "header-img"
+    "main"
+    "footer";
 }
 /* header meny */
 
@@ -36,6 +41,7 @@ background-image:url(../img/dog-313357_960_720.jpg);
     background-color: var(--background-header-nav);
     height: 100px;
 }
+
     .nav-text{ 
     order:2;
     padding-right: 2%;
@@ -44,6 +50,18 @@ background-image:url(../img/dog-313357_960_720.jpg);
     margin-top:3%;
     margin-left:10%;
     }
+
+
+#header-img{
+    grid-area: header-img;
+}
+#main{
+    grid-area:main;
+}
+#footer{
+    grid-area:footer;
+}
+
 
 /*listan/menyn*/
 

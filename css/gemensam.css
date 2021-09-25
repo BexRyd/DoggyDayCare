@@ -8,6 +8,7 @@ background-image:url(../img/dog-313357_960_720.jpg);
 /*variabler*/
 
 :root{
+    --orange_text:#FF3C00;
     --Text_Color_1:#F77D26;
     --paragraf:#4d2600;
     --background-header-nav:rgba(38, 51, 67, 0.8);

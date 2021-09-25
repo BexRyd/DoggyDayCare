@@ -8,13 +8,12 @@
     display: grid;
     width: 90%;
     height: auto;
+    justify-content: center;
     margin-top:5%; 
     grid-template-columns: repeat(1,1fr);
 	grid-template-rows: auto;
     grid-template-areas:
     
-    
-
     "routines-container"
     "list-routines-container"
     "Rules-container"
@@ -79,6 +78,12 @@
 #disease-container{
     grid-area: disease-container;
     height: auto;
+    display: flex;
+    flex-direction:row;
+    margin-top: 5%;
+  
+    
+ 
 }
 #price-list{
     grid-area: price-list;
@@ -131,16 +136,21 @@
     #price-list{
         justify-content:flex-end;
     }
-    #Rules-textbox,#disease-textbox{
+    #Rules-textbox, #disease-textbox{
         margin-left: 15%;
         width: 50%;
     }
 
-    #syringe, #sick-dog, #price-pic,#pugs{
+    #syringe, #price-pic,#pugs{
         padding:5%;
         height: auto;
         border-radius: 40%;
        
+    }
+
+    #sick-dog{
+        border-radius:20%;
+        margin-left: 2%;
     }
 
     #price-pic, #pugs{
@@ -152,12 +162,7 @@
         list-style-image: url(../img/dollar-2.png);
     }
 
-    #disease-container{
-        display: flex;
-        flex-direction:row;
-        justify-content: space-evenly;
-        padding: 5%;
-    }
+   
 
    
     /*media queries*/
@@ -170,4 +175,35 @@
         li.meny,a{
             font-size: 120%;
         }
+    }
+/*For small desktop*/
+    @media screen and (max-width:1300px) and (min-width:960px)
+    {
+        li.meny,a{
+            font-size: 110%;
+        }
+    }
+/*For tablet*/
+    
+    @media screen and (max-width:960px) and (min-width:768px){
+
+        #disease-container{
+            flex-direction:row-reverse;
+            
+        }
+
+        li.meny,a{
+            font-size: 100%;
+        }
+
+        #header-nav{
+            align-items: center;
+        }
+
+    }
+
+    /*mobile*/
+
+    @media screen and (max-width:767px){
+
     }

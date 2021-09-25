@@ -8,6 +8,7 @@
 #main{
     width: 90%;
     display: grid;
+    justify-content: center;
     grid-template-columns: repeat(4,1fr);
     grid-template-rows: auto;
     grid-template-columns: auto;

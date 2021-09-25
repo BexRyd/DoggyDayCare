@@ -30,6 +30,11 @@
     justify-content: center;
    
 }
+
+.meny-pic{
+
+    margin-top:7.5%;
+}
 /*grids container for routines*/
 
 #routines-container{
@@ -393,10 +398,7 @@
                 font-size: 1.5vw;
             }
             .logga{
-                order: 1;
-                 padding-top: 0px;
-                 width:40%;
-                 height: 100px;
+                 margin-left:3%;
                  
                
              }

@@ -100,7 +100,11 @@ h1,h2,h3{
 p,li{
     font-family:paragraph-font;
     color:var(--paragraf);
+    line-height:1.4em;
+	font-size:1.2vw;
 }
+
+
 
 
 /*font-face*/

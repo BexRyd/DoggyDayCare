@@ -81,10 +81,8 @@
     display: flex;
     flex-direction:row;
     margin-top: 5%;
-  
-    
- 
 }
+
 #price-list{
     grid-area: price-list;
     height: auto;
@@ -185,6 +183,7 @@
         #sick-dog{
             width: 300px;
             height: auto;
+        }
     }
 /*For tablet*/
     
@@ -193,6 +192,9 @@
         #disease-container{
             flex-direction:row-reverse;
             
+        }
+        #Rules-container{
+            justify-content: center;
         }
 
         li.meny,a{
@@ -204,12 +206,16 @@
         }
 
         /*img size*/
-/*
-        #logga{}
-        #pomeranian-img{}
-        #bulldog-pic{}
-        #syringe{}
-        */
+
+        #syringe{
+            display:none;
+
+        }
+        #pomeranian-img{
+            width: 300px;
+            height: auto;
+        }
+       
         #sick-dog{
             
             width: 200px;
@@ -220,6 +226,7 @@
 
     /*mobile*/
 
-    @media screen and (max-width:767px){
+    @media screen and (max-width:767px)
+    {
 
     }

@@ -133,6 +133,7 @@
     #price-list{
         justify-content:flex-end;
         margin-top: 10%;
+        margin-bottom: 10%;
     }
     #Rules-textbox, #disease-textbox{
         margin-left: 15%;
@@ -170,7 +171,7 @@
    
     /*media queries*/
 
-    @media screen and (max-width:1400px){
+    @media screen and (max-width:1400px) {
         .meny-pic{
             width:800px;
             height: auto;
@@ -205,13 +206,19 @@
 
         #sick-dog{
             
-            width: 200px;
+            width: 300px;
             height: auto;
         }
         #price-pic{
             
             width: 200px;
             height: auto;
+        }
+    }
+/*size for meny*/
+    @media screen and (max-width:1020px){
+        li.meny,a{
+            font-size: 90%;
         }
     }
 /*For tablet*/
@@ -275,7 +282,7 @@
         }
 
     }
-
+   
     /*mobile*/
 
     @media screen and (max-width:767px)

@@ -1,0 +1,62 @@
+@media screen and (max-width:1350px){
+    #header-img{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+#main{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+    grid-template-areas:
+    "text1 text1 text1 text1 "
+    "img1 img1 text2 text2"
+    
+    
+   
+    
+}
+
+
+
+
+
+
+@media screen and (max-width:1350px){
+    .main-pic{
+        width:800px;
+        height: auto;
+    }
+}
+    @media screen and (max-width:1350px){
+    #textbox1{
+       
+        width: 350px;
+        height: auto;
+        grid-area:text1;
+        margin-left: 100px;
+        margin-top: 50px;
+    }
+}
+    @media screen and (max-width:1350px){
+    #img-box1{
+        grid-area:img1;
+        width: 300px;
+        height: auto;
+        margin-left: 50px;
+        margin-top: 30px;
+        
+        
+    }
+}
+
+@media screen and (max-width:1350px){
+    #textbox2{
+        
+        width: 500px;
+        height: auto;
+        grid-area:text2;
+        margin-top: 50px;
+    }
+}

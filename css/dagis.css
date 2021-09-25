@@ -140,10 +140,12 @@
         padding:5%;
         height: auto;
         border-radius: 40%;
+       
     }
 
-    #price-pic{
+    #price-pic, #pugs{
         width: 250px;
+        filter: drop-shadow(0 0 0.75rem rgb(60, 109, 59));
     }
 
     #dollar{

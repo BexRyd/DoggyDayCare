@@ -6,16 +6,18 @@
 
 
 #main{
-    width: 100%;
+    border: 5px solid black;
+    width: 90%;
+    height: auto;
     display: grid;
     grid-template-columns: repeat(6,1fr);
     grid-template-rows: auto;
-    justify-content: center;
+    justify-items: center;
     grid-template-areas:
     "text1 text1 text1 img1 img1 img1"
     "icon-box1 icon-box2 icon-box3 icon-box4 text2 text2"
     "img2 img2 img2 img2 img2 img2"
-    
+   
    }  
 
 
@@ -103,12 +105,7 @@
     }
 
 
-    @font-face{
-        font-family:icon-font;
-        src:url(../fonts/Tahoma\ Regular\ font.ttf);
-        font-weight:bold;}
-
-
+    
     
 
     

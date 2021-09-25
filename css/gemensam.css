@@ -95,7 +95,7 @@ li.meny,a{
 
 h1,h2,h3{
   font-family:meny-font;
-  color:var(--Text_Color_1)
+  color:var(--orange_text);
 }
 
 p,li{

@@ -132,17 +132,24 @@
     }
     #price-list{
         justify-content:flex-end;
+        margin-top: 10%;
+        margin-bottom: 10%;
     }
     #Rules-textbox, #disease-textbox{
         margin-left: 15%;
         width: 50%;
     }
 
-    #syringe, #price-pic,#pugs{
+     #price-pic,#pugs{
         padding:5%;
         height: auto;
         border-radius: 40%;
        
+    }
+    #syringe{
+        padding:5%;
+        height: 250px;
+        border-radius: 40%;
     }
 
     #sick-dog{
@@ -164,7 +171,7 @@
    
     /*media queries*/
 
-    @media screen and (max-width:1400px){
+    @media screen and (max-width:1400px) {
         .meny-pic{
             width:800px;
             height: auto;
@@ -182,6 +189,36 @@
         #sick-dog{
             width: 300px;
             height: auto;
+        }
+
+        #pomeranian-img{
+            width: 300px;
+            height: auto;
+        }
+        #bulldog-pic{
+            width: 300px;
+            height: 250px;
+        }
+        #pugs{
+            width: 180px;
+            height: 165px;
+        }
+
+        #sick-dog{
+            
+            width: 300px;
+            height: auto;
+        }
+        #price-pic{
+            
+            width: 200px;
+            height: auto;
+        }
+    }
+/*size for meny*/
+    @media screen and (max-width:1020px){
+        li.meny,a{
+            font-size: 90%;
         }
     }
 /*For tablet*/
@@ -209,7 +246,14 @@
             column-gap: 5%;
         }
 
+
         /*img size*/
+
+        .meny-pic{
+
+            margin-top:15%;
+            width: 600px;
+        }
 
         #syringe{
             display:none;
@@ -218,6 +262,9 @@
         #pomeranian-img{
             width: 300px;
             height: auto;
+        }
+        #pugs{
+            display: none;
         }
        
         #bulldog-pic{
@@ -234,12 +281,110 @@
             width: 200px;
             height: auto;
         }
+        #price-pic{
+            
+            width: 200px;
+            height: auto;
+        }
 
     }
-
+   
     /*mobile*/
 
     @media screen and (max-width:767px)
     {
+        body{
+            background-image:none;
+            }
+            .Grids-Container{
+                width:100%;
+                justify-content: center;
+            }
+
+            #main{
+                width: 100%;
+                justify-content: center;
+            }
+
+            #header-nav{
+                width: 100%;
+            }
+
+
+            /*img*/
+            #header-img{
+               width: 100%;
+            }
+
+            .meny-pic{
+
+                margin-top:15%;
+                width: 400px;
+            }
+
+            /*change direktion in flex-box*/
+            #routines-container{
+                width: 100%;
+                justify-items: center;
+                grid-template-columns: repeat(6,1fr);
+                grid-template-rows: auto;
+                grid-template-areas: 
+                "textbox-routines textbox-routines textbox-routines textbox-routines textbox-routines textbox-routines"
+                 "pomeranian-img pomeranian-img  pomeranian-img pomeranian-img pomeranian-img pomeranian-img";
+            }
+            #list-routines-container{
+                flex-direction:column;
+                align-items: center;
+               
+            }
+            #Rules-container{
+               flex-direction: column;
+               align-items: center;
+            }
+            #disease-container{
+                flex-direction:column;
+                align-items: center;
+               
+            }
+            
+            #price-list{
+                flex-direction: column;
+                align-items: center;
+            }
+
+            /*img size*/
+            #syringe{
+                display:none;
+    
+            }
+            #pomeranian-img{
+                width: 300px;
+                height: auto;
+            }
+            #pugs{
+                display: none;
+            }
+           
+            #bulldog-pic{
+                width: 300px;
+                height: 250px;
+            }
+            #container-list{
+                width:40%;
+               
+            }
+           
+            #sick-dog{
+                
+                width: 200px;
+                height: auto;
+            }
+            #price-pic{
+                
+                width: 200px;
+                height: auto;
+            }
+            
+
 
     }

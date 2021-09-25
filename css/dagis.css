@@ -128,14 +128,13 @@
        
     }
 
-    #Rules-textbox{
+    #Rules-textbox,#disease-textbox{
         margin-left: 15%;
         width: 50%;
         
     }
 
-
-    #syringe{
+    #syringe, #sick-dog{
         padding:5%;
        
         height: auto;
@@ -148,19 +147,7 @@
         justify-content: space-evenly;
     }
 
-    #disease-textbox{
-        margin-left: 15%;
-        width: 50%;
-        
-    }
-
-    #sick-dog{
-        padding:5%;
-       
-        height: auto;
-        border-radius: 50%;
-    }
-
+   
     /*media queries*/
 
     @media screen and (max-width:1350px){

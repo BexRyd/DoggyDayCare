@@ -16,7 +16,7 @@ background-image:url(../img/dog-313357_960_720.jpg);
 
 .Grids-Container{
     display: grid;
-    justify-content: center;
+    justify-items: center;
     width: 90%;
     height: auto;
     row-gap:10px;

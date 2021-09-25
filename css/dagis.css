@@ -125,9 +125,6 @@
         display: flex;
         height: auto;
         flex-direction: row;
-        
-        
-
        
     }
 
@@ -139,6 +136,25 @@
 
 
     #syringe{
+        padding:5%;
+       
+        height: auto;
+        border-radius: 50%;
+    }
+
+    #disease-container{
+        display: flex;
+        flex-direction:row;
+        justify-content: space-evenly;
+    }
+
+    #disease-textbox{
+        margin-left: 15%;
+        width: 50%;
+        
+    }
+
+    #sick-dog{
         padding:5%;
        
         height: auto;

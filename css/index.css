@@ -6,15 +6,14 @@
 }
 
 #main{
+    width: 90%;
     display: grid;
     grid-template-columns: repeat(4,1fr);
     grid-template-rows: auto;
+    grid-template-columns: auto;
     grid-template-areas:
     "text1 text1 text1 text1 "
     "img1 img1 text2 text2"
-    
-    
-   
     
 }
 
@@ -58,5 +57,16 @@
         height: auto;
         grid-area:text2;
         margin-top: 50px;
+        margin-left: 100px;
     }
 }
+.icon-box{
+    width: 200px;
+    
+   
+}
+
+
+    
+    
+   

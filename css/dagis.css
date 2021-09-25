@@ -125,26 +125,29 @@
         display: flex;
         height: auto;
         flex-direction: row;
-        
-        
-
        
     }
 
-    #Rules-textbox{
+    #Rules-textbox,#disease-textbox{
         margin-left: 15%;
         width: 50%;
         
     }
 
-
-    #syringe{
+    #syringe, #sick-dog{
         padding:5%;
        
         height: auto;
         border-radius: 50%;
     }
 
+    #disease-container{
+        display: flex;
+        flex-direction:row;
+        justify-content: space-evenly;
+    }
+
+   
     /*media queries*/
 
     @media screen and (max-width:1350px){

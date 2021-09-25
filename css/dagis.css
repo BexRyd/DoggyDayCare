@@ -53,7 +53,8 @@
   
 }
 #pomeranian-img{
-  
+    
+  margin: 5%;
   grid-area:pomeranian-img;
   border-radius: 5%;
     
@@ -128,7 +129,7 @@
         flex-direction: row;
     }
     #price-list{
-        justify-content: space-around;
+        justify-content:flex-end;
     }
     #Rules-textbox,#disease-textbox{
         margin-left: 15%;
@@ -141,7 +142,7 @@
         border-radius: 40%;
     }
 
-    #price-pic, #pugs{
+    #price-pic{
         width: 250px;
     }
 

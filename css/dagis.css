@@ -39,7 +39,7 @@
     grid-template-columns: repeat(6,1fr);
 	grid-template-rows: auto;
     grid-template-areas: 
-    "textbox-routines textbox-routines textbox-routines textbox-routines pomeranian-img pugs-img ";
+    "textbox-routines textbox-routines textbox-routines textbox-routines pomeranian-img pomeranian-img";
     height: auto;
     margin: auto;
 }
@@ -53,12 +53,13 @@
   
 }
 #pomeranian-img{
+  
   grid-area:pomeranian-img;
-  border-radius: 50%;
+  border-radius: 5%;
     
 }
 #pugs-img{
-  grid-area:pugs-img;
+
   border-radius: 40%;
     
 }
@@ -125,22 +126,22 @@
         display: flex;
         height: auto;
         flex-direction: row;
-        
-       
     }
-
-    #Rules-textbox,#disease-textbox,#price-list-box{
+    #price-list{
+        justify-content: space-around;
+    }
+    #Rules-textbox,#disease-textbox{
         margin-left: 15%;
         width: 50%;
     }
 
-    #syringe, #sick-dog, #price-pic{
+    #syringe, #sick-dog, #price-pic,#pugs{
         padding:5%;
         height: auto;
-        border-radius: 50%;
+        border-radius: 40%;
     }
 
-    #price-pic{
+    #price-pic, #pugs{
         width: 250px;
     }
 

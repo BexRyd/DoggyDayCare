@@ -8,13 +8,13 @@
 #main{
     width: 100%;
     display: grid;
-    justify-content: center;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(6,1fr);
     grid-template-rows: auto;
-    
+    justify-content: center;
     grid-template-areas:
-    "text1 text1 text1 text1 "
-    "img1 img1 text2 text2"
+    "text1 text1 text1 img1 img1 img1"
+    "icon-box1 icon-box2 icon-box3 icon-box4 text2 text2"
+    "img2 img2 img2 img2 img2 img2"
     
    }  
 
@@ -38,16 +38,25 @@
         height: auto;
         grid-area:text1;
         margin-left: 100px;
-        margin-top: 50px;
+        margin-top: 180px;
     }
 
-    
     #img-box1{
         grid-area:img1;
         width: 300px;
         height: auto;
+        margin-left: 100px;
+        margin-top: 200px;
+        
+        
+        
+    }
+    #img-box2{
+        grid-area:img2;
+        width: 300px;
+        height: auto;
         margin-left: 50px;
-        margin-top: 30px;
+        margin-bottom: 600px;
         
         
     }
@@ -59,17 +68,48 @@
         width: 500px;
         height: auto;
         grid-area:text2;
-        margin-top: 50px;
-        margin-left: 100px;
+        margin-top: 450px;
+        
         
     }
-}
-.icon-box{
-    width: 200px;
-    
    
-}
+   
+    .icon-box1{
+    grid-area: icon-box1;
+    margin-left: 30px;
+    margin-top: 200px;
+    height: 200px;
+    }
+    .icon-box2{
+    grid-area: icon-box2;
+    margin-left: 30px;
+    margin-top: 200px;
+    height: 200px;
+    }
+    .icon-box3{
+        grid-area: icon-box3;
+        margin-left: 30px;
+        margin-top: 200px;
+        height:200px;
 
+    }
+    .icon-box4{
+        grid-area: icon-box4;
+        margin-left: 30px;
+        margin-top: 200px;
+        height: 200px;
+        
+
+    }
+
+
+    @font-face{
+        font-family:icon-font;
+        src:url(../fonts/Tahoma\ Regular\ font.ttf);
+        font-weight:bold;}
+
+
+    
 
     
     

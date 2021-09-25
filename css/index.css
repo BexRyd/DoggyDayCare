@@ -25,20 +25,61 @@ grid-template-areas:
 
 
 
+
 .main-pic{
     width:800px;
     height: auto;
 }
 
 
-#textbox1{
+
+
+    
    
-    width: 350px;
-    height: auto;
-    grid-area:text1;
-    margin-left: 100px;
-    margin-top: 180px;
-}
+    #textbox1{
+        width: 350px;
+        height: auto;
+        grid-area:text1;
+        margin-left: 100px;
+        margin-top: 180px;
+    }
+
+    #img-box1{
+        grid-area:img1;
+        width: 300px;
+        height: auto;
+        margin-left: 100px;
+        margin-top: 200px;
+        
+        
+        
+    }
+    #img-box2{
+        grid-area:img2;
+        width: 300px;
+        height: auto;
+        margin-left: 50px;
+        margin-bottom: 600px;
+        
+        
+    }
+
+
+
+    #textbox2{
+        
+        width: 500px;
+        height: auto;
+        grid-area:text2;
+        margin-top: 450px;
+        
+        
+    }
+
+   
+   
+   
+   
 
 #img-box1{
     grid-area:img1;

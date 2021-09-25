@@ -120,25 +120,32 @@
     }
 
     /*rules container*/
-    #Rules-container{
+    #Rules-container, #price-list{
      
         display: flex;
         height: auto;
         flex-direction: row;
+        
        
     }
 
-    #Rules-textbox,#disease-textbox{
+    #Rules-textbox,#disease-textbox,#price-list-box{
         margin-left: 15%;
         width: 50%;
-        
     }
 
-    #syringe, #sick-dog{
+    #syringe, #sick-dog, #price-pic{
         padding:5%;
-       
         height: auto;
         border-radius: 50%;
+    }
+
+    #price-pic{
+        width: 250px;
+    }
+
+    #dollar{
+        list-style-image: url(../img/dollar-2.png);
     }
 
     #disease-container{

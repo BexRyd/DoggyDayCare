@@ -182,6 +182,9 @@
         li.meny,a{
             font-size: 110%;
         }
+        #sick-dog{
+            width: 300px;
+            height: auto;
     }
 /*For tablet*/
     
@@ -201,10 +204,17 @@
         }
 
         /*img size*/
-
+/*
         #logga{}
         #pomeranian-img{}
         #bulldog-pic{}
+        #syringe{}
+        */
+        #sick-dog{
+            
+            width: 200px;
+            height: auto;
+        }
 
     }
 

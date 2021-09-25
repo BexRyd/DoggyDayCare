@@ -132,6 +132,7 @@
     }
     #price-list{
         justify-content:flex-end;
+        margin-top: 10%;
     }
     #Rules-textbox, #disease-textbox{
         margin-left: 15%;
@@ -188,6 +189,30 @@
             width: 300px;
             height: auto;
         }
+
+        #pomeranian-img{
+            width: 300px;
+            height: auto;
+        }
+        #bulldog-pic{
+            width: 300px;
+            height: 250px;
+        }
+        #pugs{
+            width: 180px;
+            height: 165px;
+        }
+
+        #sick-dog{
+            
+            width: 200px;
+            height: auto;
+        }
+        #price-pic{
+            
+            width: 200px;
+            height: auto;
+        }
     }
 /*For tablet*/
     
@@ -214,6 +239,7 @@
             column-gap: 5%;
         }
 
+
         /*img size*/
 
         #syringe{
@@ -223,6 +249,9 @@
         #pomeranian-img{
             width: 300px;
             height: auto;
+        }
+        #pugs{
+            display: none;
         }
        
         #bulldog-pic{
@@ -235,6 +264,11 @@
         }
        
         #sick-dog{
+            
+            width: 200px;
+            height: auto;
+        }
+        #price-pic{
             
             width: 200px;
             height: auto;

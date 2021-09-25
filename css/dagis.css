@@ -162,9 +162,12 @@
    
     /*media queries*/
 
-    @media screen and (max-width:1350px){
+    @media screen and (max-width:1400px){
         .meny-pic{
             width:800px;
             height: auto;
+        }
+        li.meny,a{
+            font-size: 120%;
         }
     }

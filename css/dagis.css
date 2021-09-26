@@ -184,6 +184,10 @@
             width:800px;
             height: auto;
         }
+        .meny-pic{
+
+            margin-top:11.2%;
+        }
         li.meny,a{
             font-size: 120%;
         }
@@ -360,6 +364,11 @@
                 flex-direction: column;
                 align-items: center;
             }
+
+            #textbox-routines{
+               width: 70%;
+                
+              }
 
             /*img size*/
             #syringe{

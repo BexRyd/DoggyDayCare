@@ -8,7 +8,7 @@
     display: grid;
     width: 90%;
     height: auto;
-    justify-content: center;
+    justify-items: center;
     margin-top:5%; 
     grid-template-columns: repeat(1,1fr);
 	grid-template-rows: auto;
@@ -22,11 +22,18 @@
     "price-list"
 
 }
-
+#footer{
+    width: 100%;
+}
 #header-img{
     display: flex;
     justify-content: center;
    
+}
+
+.meny-pic{
+
+    margin-top:7.5%;
 }
 /*grids container for routines*/
 
@@ -177,6 +184,10 @@
             width:800px;
             height: auto;
         }
+        .meny-pic{
+
+            margin-top:11.2%;
+        }
         li.meny,a{
             font-size: 120%;
         }
@@ -303,8 +314,8 @@
 
             #main{
                 width: 100%;
-                justify-content: center;
-                border:solid;
+                justify-items: center;
+    
             }
 
             #header-nav{
@@ -354,6 +365,11 @@
                 align-items: center;
             }
 
+            #textbox-routines{
+               width: 70%;
+                
+              }
+
             /*img size*/
             #syringe{
                 display:none;
@@ -391,13 +407,12 @@
                 font-size: 1.5vw;
             }
             .logga{
-                order: 1;
-                 padding-top: 0px;
-                 width:40%;
-                 height: 100px;
+                 margin-left:3%;
                  
                
              }
+
+          
 
 
     }

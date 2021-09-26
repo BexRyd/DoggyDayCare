@@ -228,10 +228,27 @@
         }
     }
 /*size for meny*/
-    @media screen and (max-width:1020px){
-        li.meny,a{
-            font-size: 90%;
+    @media screen and (max-width:1050px){
+        #line-1, #line-2,#line-3{
+         width: 45px;
+        height: 5px;
+        background-color: #F77D26;
+        margin:7px;
+        
         }
+        #burger{
+            order:2;
+            margin-right:3%;
+        }
+
+        #header-nav{
+            align-items: center;
+        }
+
+        li.meny{
+        display: none;
+        }
+       
     }
 /*For tablet*/
     

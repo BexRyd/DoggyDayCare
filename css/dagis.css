@@ -66,11 +66,7 @@
   border-radius: 5%;
     
 }
-#pugs-img{
 
-  border-radius: 40%;
-    
-}
 
 /*grid-area for main container*/
 
@@ -148,11 +144,15 @@
         width: 50%;
     }
 
-     #price-pic,#pugs{
+     #price-pic{
         padding:5%;
         height: auto;
         border-radius: 40%;
-       
+    }
+    #pugs{
+        border-radius: 10%;
+        padding:5%;
+        height: auto;
     }
     #syringe{
         padding:5%;
@@ -167,7 +167,7 @@
 
     #price-pic, #pugs{
         width: 250px;
-        filter: drop-shadow(0 0 0.75rem rgb(60, 109, 59));
+       
     }
 
     #dollar{
@@ -190,6 +190,10 @@
         }
         li.meny,a{
             font-size: 120%;
+        }
+        #pomeranian-img{
+            width: 300px;
+            height: auto;
         }
     }
 /*For small desktop*/
@@ -235,6 +239,16 @@
         background-color: #F77D26;
         margin:7px;
         
+        }
+
+        #sick-dog{
+            
+            width: 200px;
+            height: auto;
+        }
+
+        #pugs{
+            display: none;
         }
         #burger{
           position: absolute;
@@ -315,9 +329,7 @@
             width: 300px;
             height: auto;
         }
-        #pugs{
-            display: none;
-        }
+       
        
         #bulldog-pic{
             width: 300px;

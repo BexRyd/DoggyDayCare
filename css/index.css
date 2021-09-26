@@ -1,3 +1,9 @@
+*{
+    box-sizing: border-box;
+}
+
+
+
 #header-img{
     display: flex;
     justify-content: center;
@@ -7,14 +13,14 @@
 #main{
 width: 90%;
 display: grid;
-grid-template-columns: repeat(6,1fr);
+grid-template-columns: repeat(8,1fr);
 grid-template-rows: auto;
 
 grid-template-areas:
-"text1 text1 text1 img1 img1 img1"
-"icon-box1 icon-box2 icon-box3 icon-box4 text2 text2"
-"img2 img2 img2 img2 img2 img2"
-"img-bottom img-bottom img-bottom img-bottom img-bottom img-bottom"
+"text1 text1 img1 img1 img1 img1 img1 img1"
+"icon-box1 icon-box2 icon-box3 icon-box4 text2 text2 text2 text2"
+"img2 img2 img2 img2 img2 img2 img2 img2"
+"img-bottom img-bottom img-bottom img-bottom img-bottom img-bottom img-bottom img-bottom"
 
 }  
 
@@ -38,7 +44,7 @@ grid-template-areas:
     
    
     #textbox1{
-        margin-top: 40%;
+        margin-top: 20%;
         width: 350px;
         height: auto;
         grid-area:text1;
@@ -47,14 +53,9 @@ grid-template-areas:
     }
 
     #img-box1{
-        margin-top: 90%;
-        grid-area:img1;
-        
-        height: auto;
-        
-       
-        
-        
+      grid-area:img1;
+      height: auto;
+      margin-top: 40%;
         
     }
     #img-box2{

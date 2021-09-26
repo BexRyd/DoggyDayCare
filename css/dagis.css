@@ -238,13 +238,16 @@
         }
         #burger{
           position: absolute;
+          cursor: pointer;
           right:7px;
         }
 
         #header-nav{
             align-items: center;
         }
-
+         body{
+             overflow-x:hidden;
+         }
         .nav-text{
         position: absolute;
         right:0px;
@@ -257,10 +260,16 @@
         align-items: center;
         row-gap: 2%;
         padding-top: 2%;
+        transform: translateX(120%);
+        transition: transform 0.5s ease-in;
 
+        }
+        .nav-active{
+            transform: translateX(0%);
         }
         li.meny,a{
             margin:0%;
+            opacity: 0;
         }
        
     }

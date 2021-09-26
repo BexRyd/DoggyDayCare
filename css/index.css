@@ -9,11 +9,12 @@ width: 90%;
 display: grid;
 grid-template-columns: repeat(6,1fr);
 grid-template-rows: auto;
-justify-items: center;
+
 grid-template-areas:
 "text1 text1 text1 img1 img1 img1"
 "icon-box1 icon-box2 icon-box3 icon-box4 text2 text2"
 "img2 img2 img2 img2 img2 img2"
+"img-bottom img-bottom img-bottom img-bottom img-bottom img-bottom"
 
 }  
 
@@ -37,41 +38,55 @@ grid-template-areas:
     
    
     #textbox1{
+        margin-top: 40%;
         width: 350px;
         height: auto;
         grid-area:text1;
-        margin-left: 100px;
-        margin-top: 180px;
+        
+       
     }
 
     #img-box1{
+        margin-top: 90%;
         grid-area:img1;
-        width: 300px;
+        
         height: auto;
-        margin-left: 100px;
-        margin-top: 200px;
+        
+       
         
         
         
     }
     #img-box2{
         grid-area:img2;
-        width: 300px;
+        
         height: auto;
-        margin-left: 50px;
-        margin-bottom: 600px;
+        margin-top: 30%;
+       
         
         
+    }
+
+    #img-box3{
+        
+        
+        margin-top: 30%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+
+        grid-area: img-bottom;
     }
 
 
 
     #textbox2{
-        
-        width: 500px;
+        margin-top: 70%;
+        width: 100%;
         height: auto;
         grid-area:text2;
-        margin-top: 450px;
+       
+        
         
         
     }
@@ -81,36 +96,24 @@ grid-template-areas:
    
    
 
-#img-box1{
-    grid-area:img1;
-    width: 300px;
-    height: auto;
-    margin-left: 100px;
-    margin-top: 200px;
+
     
     
     
-}
-#img-box2{
-    grid-area:img2;
-    width: 300px;
-    height: auto;
-    margin-left: 50px;
-    margin-bottom: 600px;
-    
-    
-}
 
 
 
-#textbox2{
+
     
-    width: 500px;
-    height: auto;
-    grid-area:text2;
-    margin-top: 450px;
-    
-    
+
+
+#icon-box{
+    margin-top: 60%;
+    width: 150%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 
@@ -118,28 +121,33 @@ grid-template-areas:
 
 .icon-box1{
 grid-area: icon-box1;
-margin-left: 30px;
-margin-top: 200px;
-height: 200px;
+width: 10%;
+height: 10%;
+
+
+
 }
 .icon-box2{
 grid-area: icon-box2;
-margin-left: 30px;
-margin-top: 200px;
-height: 200px;
+width: 10%;
+height: 10%;
 }
 .icon-box3{
-    grid-area: icon-box3;
-    margin-left: 30px;
-    margin-top: 200px;
-    height:200px;
+grid-area: icon-box3;
+width: 10%;
+height: 10%;
+    
+   
+   
 
 }
 .icon-box4{
-    grid-area: icon-box4;
-    margin-left: 30px;
-    margin-top: 200px;
-    height: 200px;
+grid-area: icon-box4;
+width: 10%;
+height: 10%;
+    
+    
+   
     
 
 }

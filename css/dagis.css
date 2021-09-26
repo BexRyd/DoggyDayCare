@@ -228,10 +228,50 @@
         }
     }
 /*size for meny*/
-    @media screen and (max-width:1020px){
-        li.meny,a{
-            font-size: 90%;
+    @media screen and (max-width:1050px){
+        #line-1, #line-2,#line-3{
+         width: 45px;
+        height: 5px;
+        background-color: #F77D26;
+        margin:7px;
+        
         }
+        #burger{
+          position: absolute;
+          cursor: pointer;
+          right: 5%;
+        }
+
+        #header-nav{
+            align-items: center;
+        }
+         body{
+             overflow-x:hidden;
+         }
+        .nav-text{
+        position: absolute;
+        right:0px;
+        height: 85.5vh;
+        top:12.5vh;
+        background-color: rgb(81, 92, 112);
+        width:30%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 8%;
+        padding-top: 2%;
+        transform: translateX(120%);
+        transition: transform 0.5s ease-in;
+
+        }
+        .nav-active{
+            transform: translateX(0%);
+        }
+        li.meny,a{
+            margin:0%;
+           
+        }
+       
     }
 /*For tablet*/
     
@@ -335,6 +375,11 @@
                 width: 400px;
             }
 
+            #burger{
+                right: 10%;
+            }
+
+
             /*change direktion in flex-box*/
             #routines-container{
                 width: 100%;
@@ -365,9 +410,17 @@
                 align-items: center;
             }
 
+
             #textbox-routines{
                width: 70%;
+             
                 
+              }
+
+              #container-list{
+                  width: 100%;
+                  padding-left: 10%;
+                  
               }
 
             /*img size*/
@@ -387,10 +440,7 @@
                 width: 300px;
                 height: 250px;
             }
-            #container-list{
-                width:40%;
-               
-            }
+           
            
             #sick-dog{
                 

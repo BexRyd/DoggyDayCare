@@ -4,7 +4,10 @@ width: 100%;
 justify-content: center;
 background-image:url(../img/dog-313357_960_720.jpg);
 }
+.meny-pic{
 
+    margin-top:7.5%;
+}
 /*variabler*/
 
 :root{

@@ -90,6 +90,7 @@
 }
 
 #price-list{
+    
     grid-area: price-list;
     height: auto;
 }
@@ -137,6 +138,13 @@
         margin-top: 10%;
         margin-bottom: 10%;
     }
+    #price-list-box{
+        border: dotted 2px rgba(38, 51, 67, 0.8);
+        width: 400px;
+        height: 200px;
+        padding:2%;
+        text-align: center;
+    }
     #Rules-textbox, #disease-textbox{
         margin-left: 15%;
         width: 50%;
@@ -169,7 +177,7 @@
     }
 
     #dollar{
-        list-style-image: url(../img/dollar-2.png);
+        list-style-image: url(../img/);
     }
 
    

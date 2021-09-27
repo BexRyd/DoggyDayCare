@@ -414,6 +414,10 @@ height: auto;
                 right: 10%;
             }
 
+            #footer{
+                width: 105%;
+            }
+
 
             /*change direktion in flex-box*/
             #routines-container{
@@ -486,6 +490,11 @@ height: auto;
                 
                 width: 200px;
                 height: auto;
+            }
+
+            #footer-img{
+               width: 80px;
+               height: auto;
             }
 
             p,li{

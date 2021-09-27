@@ -73,10 +73,18 @@ background-image:url(../img/dog-313357_960_720.jpg);
     grid-area:main;
 }
 #footer{
+    padding-top: 2%;
+    padding-bottom: 2%;
     grid-area:footer;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     height: auto;
     background-color: var(--background-header-nav);
 }
+
+
+
 
 
 

@@ -112,7 +112,7 @@ body{
         height: auto; 
     }
     
-    #band{
+    #main{
         width: 90%; 
         margin-top: 10%;
         display: grid;

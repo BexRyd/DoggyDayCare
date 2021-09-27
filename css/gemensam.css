@@ -23,7 +23,7 @@ background-image:url(../img/dog-313357_960_720.jpg);
     width: 90%;
     height: auto;
     row-gap:10px;
-    background-color: white;
+    background-color:#ffffff;
 	grid-template-columns: repeat(1,1fr);
 	grid-template-rows: auto;
     grid-template-areas: 

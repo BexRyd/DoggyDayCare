@@ -448,13 +448,19 @@ height: auto;
             #disease-container{
                 flex-direction:column;
                 align-items: center;
+                
                
+            }
+
+            #disease-textbox{
+                margin-right: 10%;
             }
             
             #price-list{
                 flex-direction: column;
+                row-gap: 2%;
                 align-items: center;
-                margin-bottom: 35%;
+                margin-bottom: 38%;
             }
 
 
@@ -490,7 +496,7 @@ height: auto;
            
            
             #sick-dog{
-                
+                margin-top: 5%;
                 width: 200px;
                 height: auto;
             }
@@ -506,7 +512,7 @@ height: auto;
             }
 
             p,li{
-                font-size: 1.5vw;
+                font-size: 1.8vw;
             }
             .logga{
                  margin-left:3%;

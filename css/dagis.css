@@ -282,7 +282,7 @@ height: auto;
         position: absolute;
         right:0px;
         height: 85.5vh;
-        top:12.5vh;
+        top:12vh;
         background-color: rgb(81, 92, 112);
         width:30%;
         display: flex;
@@ -327,6 +327,12 @@ height: auto;
             justify-content: center;
         }
 
+
+        .nav-text{
+        
+            height: 86.5vh;
+            top:12.5vh;
+        }
         li.meny,a{
             font-size: 100%;
         }
@@ -403,6 +409,16 @@ height: auto;
             #header-nav{
                 width: 110%;
                 margin-left: 0px;
+            }
+
+            .nav-text{
+        
+                height: 86vh;
+                top:12vh;
+            }
+
+            li.meny,a{
+                font-size: 100%;
             }
 
 

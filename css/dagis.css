@@ -309,6 +309,11 @@ height: auto;
             padding:2%;
         }
        
+        
+        #footer-img{
+            width: 80px;
+            height: auto;
+         }
     }
 /*For tablet*/
     
@@ -334,6 +339,7 @@ height: auto;
             justify-content: flex-start;
             column-gap: 5%;
         }
+
 
 
         /*img size*/
@@ -390,6 +396,7 @@ height: auto;
             #main{
                 width: 100%;
                 justify-items: center;
+                row-gap: 2%;
     
             }
 
@@ -441,12 +448,19 @@ height: auto;
             #disease-container{
                 flex-direction:column;
                 align-items: center;
+                
                
+            }
+
+            #disease-textbox{
+                margin-right: 10%;
             }
             
             #price-list{
                 flex-direction: column;
+                row-gap: 2%;
                 align-items: center;
+                margin-bottom: 38%;
             }
 
 
@@ -482,7 +496,7 @@ height: auto;
            
            
             #sick-dog{
-                
+                margin-top: 5%;
                 width: 200px;
                 height: auto;
             }
@@ -498,7 +512,7 @@ height: auto;
             }
 
             p,li{
-                font-size: 1.5vw;
+                font-size: 1.8vw;
             }
             .logga{
                  margin-left:3%;

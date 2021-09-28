@@ -1,8 +1,8 @@
 
 .img-box{
   
-    width: 100%;
-    margin: 0 auto;
+    width: 90%%;
+    margin-top: 10%;
 }
 .img-box > img{
     display:block;
@@ -22,7 +22,7 @@
         grid-template-columns:repeat(1,1fr) ;
         grid-template-rows: auto;
         grid-gap:20px;
-        border: 1px solid #F77D26; ;
+      
     }
 
     
@@ -34,19 +34,19 @@
     h1{
         color:#F77D26; 
         font-size: 24px;
-        margin: 0;     
+     
     }
 
- .main p{
+ #main p{
      font-size: 16px;
  }
 
- .main span{
+ #main span{
      font-size: 12px;
      font-weight: bold;
      color:grey;
      text-transform: uppercase;
-     letter-spacing: .05em;
+     letter-spacing: 1px;
     
  }
  
@@ -68,11 +68,11 @@
      
     }
    .thumb-1,.thumb-2,.thumb-3,.thumb-4{
-       background-color: #fff;
+     
        display:flex;
        color: #444;
        box-shadow: 0 3px 6px rgba(0, 0,0, .1);
-       border-radius: 3%;
+       border-radius: 5%;
    }
 
 
@@ -87,16 +87,15 @@
 
 
     article{
-        flex:1;
+       
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         padding: 60px;
     }
 
-    article p{
-        flex:1;
-    }
+   
+   
 
     /*Breda desktopskärmar: stöttre än 1200px*/
     @media screen and (max-width:1400px){
@@ -106,7 +105,7 @@
             grid-template-areas:repeat(1,1fr);
         }
 
-        .main{
+        #main{
             width: 90%;
             display:grid;
             grid-template-areas:repeat(4,1fr);  
@@ -152,7 +151,7 @@
         grid-template-areas:repeat(1,1fr);
 
     }
-     .main{
+     #main{
         width: 90%;
         display:grid;
         grid-template-areas:repeat(4,1fr);    
@@ -169,7 +168,7 @@
         grid-template-areas:repeat(1,1fr);
     }
 
-    .main {
+    #main {
         width: 90%;
         display:grid;
         grid-template-columns:1fr 1fr ;      

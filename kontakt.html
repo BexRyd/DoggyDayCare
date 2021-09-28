@@ -7,29 +7,88 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/gemensam.css">
     <link rel="stylesheet" href="css/kontakt.css">
-    <title>Document</title>
+    <link rel="icon" href="img/favicon (2).ico">
+    <title>Kontakt</title>
 </head>
 
 <body>
     <div class="Grids-Container">
         <div id="header-nav">
             <ul class="nav-text">
-                <li id="active" class="meny">Hem</li>
-                <li class="meny">Dagis</li>
-                <li class="meny">Om Mig</li>
-                <li class="meny">Kontakt</li>
+                <li class="meny" class="meny"><a href="index.html">Hem</a></li>
+                <li class="meny"><a href="dagis.html">Dagis</a></li>
+                <li class="meny"> <a href="om_mig.html">Om Mig</a></li>
+                <li id="active"><a href="kontakt.html">Kontakt</a></li>
             </ul>
             <img class="logga" src="img/Doggy Daycare-7.png" alt="dog">
 
         </div>
         <div id="header-img">
-            <img class="meny-pic" src="img/dog-pomeranian.jpg" alt="dog">
+            <img class="meny-pic" src="img/kontakt-dog-nav.jpg" alt="dog">
         </div>
         <div id="main">
-        </div>
-        <div id="footer">
+            <form action="mailto:razmsara@gmail.comm" enctype="text/plain">
+                
+
+                <table>
+                    <tr>
+                        <td>
+                            <label >Namn:</label>
+                            <input type="text" name="ditNamn">
+                        </td>
+                        <td>
+                            <label>Efternam:</label>
+                            <input type="text" name="ditEfternam">
+                        </td>
+                    </tr>
+                    
+                </table>
+                <table>
+                    <tr>
+                        <td>
+                            <label>Email:</label>
+                              <input id="textbox" type="email" name="dinMail">
+                        </td>
+                    </tr>
+                </table>
+                <label>Skriv din medelande här nedanför:</label>
+                <br>
+                <textarea name="text" id="" cols="30" rows="10"></textarea>
+                <br>
+                <button type="submit" class="Skicka" value="bar">Skicka</button>
+            </form>
         </div>
 
+        <footer id="footer">
+            <img id="footer-img" src="img/Doggy Daycare-5-100px.png" alt="logga">
+            
+            <ul>
+                <li class="footer-text">
+                    08-508 290 00
+                </li>
+                <li class="footer-text">
+                    Nortullsgatan 21 Odenplan Stockholm
+                </li>
+                <li class="footer-text">
+                    <a href="mailto:doggydaycare@live.com" class="button">doggydaycare@live.com</a> 
+                </li>
+            </ul>
+            
+            
+            
+            <ul>
+                <li class="footer-text">
+                    <a class="footer-link" href="https://www.Instagram.com/">Instagram</a>
+                </li>
+                <li class="footer-text">
+                     <a class="footer-link" href="https://twitter.com/">Twitter</a>
+                </li>
+                <li class="footer-text">
+                    <a class="footer-link" href="https://www.Facebook.com/">Facebook</a>
+                </li>
+            </ul>
+            
+        </footer>
     </div>
 
 </body>

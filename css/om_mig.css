@@ -1,39 +1,35 @@
 
 .img-box{
-    max-width: 1400px;
+  
     width: 100%;
     margin: 0 auto;
 }
 .img-box > img{
     display:block;
     width: 90%;
-    margin-left: 4%;
+    margin-left: 5%;
     border-radius: 4%;
 }
 
   /*standard skärm */
-======
-      
-    
-    
-    
-    
-    /*listan/menyn*/
-    
-    
-    
->>>>>>> d2017147f5ffc716f777e6fd2ddf083f8bf7aa64
+
     #main{
         width: 90%; 
-        max-width: 1400px;
         margin-top: 5%;
         display:grid;
+        height: auto;;
         justify-items: center;
         grid-template-columns:repeat(1,1fr) ;
         grid-template-rows: auto;
         grid-gap:20px;
         border: 1px solid #F77D26; ;
     }
+
+    
+    #footer{
+        width: 100%;
+        
+}
 
     h1{
         color:#F77D26; 
@@ -68,7 +64,7 @@
         justify-content: space-between;
         position:relative;
         top:0;
-<<<<<<< HEAD
+
      
     }
    .thumb-1,.thumb-2,.thumb-3,.thumb-4{
@@ -78,9 +74,8 @@
        box-shadow: 0 3px 6px rgba(0, 0,0, .1);
        border-radius: 3%;
    }
-=======
-        transition: 0,2s;
-    }
+
+
 
 
     
@@ -89,7 +84,7 @@
         background-size: cover;
         background-position: center center;
     }
->>>>>>> d2017147f5ffc716f777e6fd2ddf083f8bf7aa64
+
 
     article{
         flex:1;
@@ -127,7 +122,7 @@
         }
     
 /*Mindre desktopskärmar :mellan 1200px och 960px*/
-   @media screen and (max-width:1100px){
+   @media screen and (max-width:1200px)and(min-width:960px){
 
     .img-box{
         width: 90%;

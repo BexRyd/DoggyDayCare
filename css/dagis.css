@@ -323,6 +323,10 @@ height: auto;
             flex-direction:row-reverse;
             
         }
+
+        #disease-textbox{
+            width: 40%;
+        }
         #Rules-container{
             justify-content: center;
         }

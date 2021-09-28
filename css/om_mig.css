@@ -1,140 +1,40 @@
-body{
-    display:flex;
+ 
+.img-box{
+    max-width: 1400px;
     width: 100%;
-    justify-content: center;
-    background-image:url(../fonts/dog-313357_960_720.jpg);
-    }
-    
-    /*variabler*/
-    
-    :root{
-        --Text_Color_1:#F77D26;
-        --paragraf:#4d2600;
-        --background-header-nav:rgba(38, 51, 67, 0.8);
-    }
-    
-    .Grids-Container{
-        display: grid;
-        width: 90%;
-        height: auto;
-        border: 2px solid black;
-        row-gap:10px;
-        background-color: white;
-        grid-template-columns: repeat(1,1fr);
-        grid-template-rows: auto;
-        grid-template-areas: 
-        "header-nav"
-        "band"
-        "band-2"
-        "band-3"
-        "band-4"
-        "footer";
-    }
-    /* header meny */
-    
-    #header-nav{
-        display: flex;
-        flex-direction: row;
-        position: fixed;
-        flex-wrap: nowrap;
-        width: 90%;
-        grid-area: header;
-        border:1px solid black;
-        background-color: var(--background-header-nav);
-        height: 100px;
-    }
-    
-        .nav-text{ 
-        order:2;
-        padding-right: 2%;
-        width:50%;
-        height: auto;
-        margin-top:3%;
-        margin-left:10%;
-        }
-    
-        #active{
-            color:white;
-            text-decoration: underline;
-        }
-    
-        li.meny:hover{
-            color:white;
-            text-shadow: 1px 1px 2px gray , 0 0 25px white, 0 0 5px black;
-        }
-       
+    margin: 0 auto;
+}
+.img-box > img{
+    display:block;
+    width: 90%;
+    margin-left: 4%;
+    border-radius: 4%;
+}
 
-    #footer{
-        grid-area:footer;
-        height: auto;
-        background-color: var(--background-header-nav);
-    }
-    
-    
-    
-    /*listan/menyn*/
-    
-    
-    li.meny{
-        display: inline;  
-        list-style-type:none;
-        margin:2%;
-        font-size:150%;
-        
-        font-family:meny-font;
-        color:var(--Text_Color_1);
-    }
-    
-    
-    /*font-face*/
-    
-    @font-face{
-        font-family:paragraph-font;
-        src:url(../fonts/Tahoma\ Regular\ font.ttf);
-        font-weight:bold;}
-    
-     @font-face{
-         font-family:meny-font;
-         src:url(../fonts/Comfortaa-Bold.ttf);
-        font-weight:bold;}
-    
-    @font-face{
-            font-family:navigation-font;
-            src:url(../fonts/Merienda-Bold.ttf);
-            font-weight:bold;}
-    
-    /* positionering logga */
-    
-    .logga{
-       order: 1;
-        padding-top: 0px;
-        width: 40%;
-        height: auto; 
-    }
-    
+  /*standard skärm */
     #main{
         width: 90%; 
-        margin-top: 10%;
-        display: grid;
-        flex-wrap: nowrap;
+        max-width: 1400px;
+        margin-top: 5%;
+        display:grid;
+        justify-items: center;
         grid-template-columns:repeat(1,1fr) ;
         grid-template-rows: auto;
         grid-gap:20px;
-        background-color:#fff;
-        align-items: center;
+        border: 1px solid #F77D26; ;
     }
-    
+
     h1{
         color:#F77D26; 
         font-size: 24px;
         margin: 0;     
     }
 
- .card p{
+ .main p{
      font-size: 16px;
  }
 
- .card span{
+ .main span{
      font-size: 12px;
      font-weight: bold;
      color:grey;
@@ -143,32 +43,29 @@ body{
     
  }
  
-    .card{
-        
-        background: #fff;
-        text-decoration: none;
-        color: #444;
-        box-shadow: 0 2px 5px rgba(0, 0, 0, .1);
-        display:flex;
+    
+
+    
+    
+    .class[item-]{
        
+      
+        color: #444;
+        display:flex; 
         justify-items: center;
         flex-direction: column;
         justify-content: space-between;
         position:relative;
         top:0;
-        transition: 0,2s;
+     
     }
-
-    .card:hover{
-        top:-2px;
-        box-shadow: 0 4px 5px rgba(0, 0,0, 2); 
-    }
-    
-    .thumb{
-        padding-bottom: 10%;
-        background-size: cover;
-        background-position: center center;
-    }
+   .thumb-1,.thumb-2,.thumb-3,.thumb-4{
+       background-color: #fff;
+       display:flex;
+       color: #444;
+       box-shadow: 0 3px 6px rgba(0, 0,0, .1);
+       border-radius: 3%;
+   }
 
     article{
         flex:1;
@@ -182,24 +79,90 @@ body{
         flex:1;
     }
 
-    @media screen and (min-width:500px){
-        .band{
-            grid-template-areas: 1fr 1fr;
-          
+    /*Breda desktopskärmar: stöttre än 1200px*/
+    @media screen and (max-width:1400px){
+        .img-box{
+            width: 90%;
+            display:grid;
+            grid-template-areas:repeat(1,1fr);
         }
-        .item-1{
-            grid-column: 1/3;
-        }
-    }
 
-   @media screen and (min-width:850px){
-       .band{
-           grid-template-columns: repeat(4,1fr);
-           grid-template-areas: 
-             "";
-       }
+        .main{
+            width: 90%;
+            display:grid;
+            grid-template-areas:repeat(4,1fr);  
          
-    }
-       
+        }
+           .item-1{
+               grid-column: 1/5;
+           }
 
-   
+            .item-3{
+                grid-column: 2/5;
+           }
+        }
+    
+/*Mindre desktopskärmar :mellan 1200px och 960px*/
+   @media screen and (max-width:1100px){
+
+    .img-box{
+        width: 90%;
+        display:grid;
+        grid-template-areas:repeat(1,1fr);
+       }
+
+       .main{
+           grid-template-columns: repeat(4,1fr); 
+       }
+
+       .item-1{
+        grid-column: 1/5;
+       }
+
+       .item-3{
+         grid-column: 2/5;
+     } 
+    }
+      
+ //*Tablets såsom Ipad: mellan 960px och 768px*/
+ @media screen and (max-width:950px){
+
+    .img-box{
+        width: 90%;
+        display:grid;
+        grid-template-areas:repeat(1,1fr);
+
+    }
+     .main{
+        width: 90%;
+        display:grid;
+        grid-template-areas:repeat(4,1fr);    
+     }
+    }
+  
+  
+/*För mobiltelfoner: mindre än 768px*/
+   @media screen and (max-width:600px){
+      
+    .img-box{
+        width: 90%;
+        display:grid;
+        grid-template-areas:repeat(1,1fr);
+    }
+
+    .main {
+        width: 90%;
+        display:grid;
+        grid-template-columns:1fr 1fr ;      
+        }
+
+    .item-1{
+       grid-column: 1/5;
+        }
+
+   .item-3{
+        grid-column:1/5 ;
+        }  
+  }
+ 
+

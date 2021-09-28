@@ -1,13 +1,13 @@
 
 .img-box{
   
-    width: 90%%;
+    width: 90%;
     margin-top: 10%;
 }
 .img-box > img{
     display:block;
     width: 90%;
-    margin-left: 5%;
+  
     border-radius: 4%;
 }
 
@@ -25,11 +25,7 @@
       
     }
 
-    
-    #footer{
-        width: 100%;
-        
-}
+  
 
     h1{
         color:#F77D26; 
@@ -63,7 +59,7 @@
         flex-direction: column;
         justify-content: space-between;
         position:relative;
-        top:0;
+      
 
      
     }
@@ -71,7 +67,7 @@
      
        display:flex;
        color: #444;
-       box-shadow: 0 3px 6px rgba(0, 0,0, .1);
+       box-shadow: 0 3px 6px rgba(0, 0,0, 0.1);
        border-radius: 5%;
    }
 
@@ -129,7 +125,7 @@
         grid-template-areas:repeat(1,1fr);
        }
 
-       .main{
+       #main{
            grid-template-columns: repeat(4,1fr); 
        }
 
@@ -142,7 +138,7 @@
      } 
     }
       
- //*Tablets såsom Ipad: mellan 960px och 768px*/
+ /*Tablets såsom Ipad: mellan 960px och 768px*/
  @media screen and (max-width:950px){
 
     .img-box{
@@ -160,7 +156,7 @@
   
   
 /*För mobiltelfoner: mindre än 768px*/
-   @media screen and (max-width:768px)and(min-width:500px){
+   @media screen and (max-width:500px){
       
     .img-box{
         width: 90%;

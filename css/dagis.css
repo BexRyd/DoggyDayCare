@@ -321,7 +321,7 @@ height: auto;
 
         #disease-container{
             flex-direction:row-reverse;
-            justify-content: space-around;
+            justify-content: center;
    
         }
 
@@ -384,6 +384,7 @@ height: auto;
             
             width: 200px;
             height: auto;
+            margin-left: 5%;
         }
         #price-pic{
             

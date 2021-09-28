@@ -321,7 +321,8 @@ height: auto;
 
         #disease-container{
             flex-direction:row-reverse;
-            
+            justify-content: space-around;
+   
         }
 
         #disease-textbox{

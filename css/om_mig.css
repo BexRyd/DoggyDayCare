@@ -1,3 +1,4 @@
+<<<<<<< HEAD
  
 .img-box{
     max-width: 1400px;
@@ -12,6 +13,22 @@
 }
 
   /*standard skärm */
+=======
+
+    
+    
+   
+    
+      
+    
+    
+    
+    
+    /*listan/menyn*/
+    
+    
+    
+>>>>>>> d2017147f5ffc716f777e6fd2ddf083f8bf7aa64
     #main{
         width: 90%; 
         max-width: 1400px;
@@ -57,6 +74,7 @@
         justify-content: space-between;
         position:relative;
         top:0;
+<<<<<<< HEAD
      
     }
    .thumb-1,.thumb-2,.thumb-3,.thumb-4{
@@ -66,6 +84,18 @@
        box-shadow: 0 3px 6px rgba(0, 0,0, .1);
        border-radius: 3%;
    }
+=======
+        transition: 0,2s;
+    }
+
+
+    
+    .thumb{
+        padding-bottom: 10%;
+        background-size: cover;
+        background-position: center center;
+    }
+>>>>>>> d2017147f5ffc716f777e6fd2ddf083f8bf7aa64
 
     article{
         flex:1;

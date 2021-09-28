@@ -58,10 +58,10 @@
   
 }
 #pomeranian-img{
-    
-  margin: 5%;
+
+width: 350px;
+height: auto;
   grid-area:pomeranian-img;
-  border-radius: 5%;
     
 }
 
@@ -140,9 +140,12 @@
     }
     #price-list-box{
         border: dotted 2px rgba(38, 51, 67, 0.8);
-        width: 400px;
+        width: 800px;
         height: 200px;
         padding:2%;
+    }
+
+    #rubrik-price{
         text-align: center;
     }
     #Rules-textbox, #disease-textbox{
@@ -153,31 +156,32 @@
      #price-pic{
         padding:5%;
         height: auto;
-        border-radius: 40%;
+       
     }
     #pugs{
-        border-radius: 10%;
         padding:5%;
         height: auto;
     }
     #syringe{
         padding:5%;
         height: 250px;
-        border-radius: 40%;
+      
     }
 
     #sick-dog{
-        border-radius:20%;
+     
         margin-left: 2%;
+        width: 350px;
+        height: auto;
     }
 
-    #price-pic, #pugs{
+    #price-pic{
         width: 250px;
        
     }
 
     #dollar{
-        list-style-image: url(../img/);
+        list-style-image: url(../img/black-paw-20px.png);
     }
 
    
@@ -200,6 +204,12 @@
         #pomeranian-img{
             width: 300px;
             height: auto;
+        }
+
+        #price-list-box{
+            width: 500px;
+            height: 200px;
+         
         }
     }
 /*For small desktop*/
@@ -272,7 +282,7 @@
         position: absolute;
         right:0px;
         height: 85.5vh;
-        top:12.5vh;
+        top:12vh;
         background-color: rgb(81, 92, 112);
         width:30%;
         display: flex;
@@ -291,7 +301,19 @@
             margin:0%;
            
         }
+
+        #price-list-box{
+         
+            width: 400px;
+            height: 150px;
+            padding:2%;
+        }
        
+        
+        #footer-img{
+            width: 80px;
+            height: auto;
+         }
     }
 /*For tablet*/
     
@@ -305,6 +327,12 @@
             justify-content: center;
         }
 
+
+        .nav-text{
+        
+            height: 86.5vh;
+            top:12.5vh;
+        }
         li.meny,a{
             font-size: 100%;
         }
@@ -317,6 +345,7 @@
             justify-content: flex-start;
             column-gap: 5%;
         }
+
 
 
         /*img size*/
@@ -373,12 +402,23 @@
             #main{
                 width: 100%;
                 justify-items: center;
+                row-gap: 2%;
     
             }
 
             #header-nav{
                 width: 110%;
                 margin-left: 0px;
+            }
+
+            .nav-text{
+        
+                height: 86vh;
+                top:12vh;
+            }
+
+            li.meny,a{
+                font-size: 100%;
             }
 
 
@@ -395,6 +435,10 @@
 
             #burger{
                 right: 10%;
+            }
+
+            #footer{
+                width: 105%;
             }
 
 
@@ -420,12 +464,19 @@
             #disease-container{
                 flex-direction:column;
                 align-items: center;
+                
                
+            }
+
+            #disease-textbox{
+                margin-right: 10%;
             }
             
             #price-list{
                 flex-direction: column;
+                row-gap: 2%;
                 align-items: center;
+                margin-bottom: 38%;
             }
 
 
@@ -461,7 +512,7 @@
            
            
             #sick-dog{
-                
+                margin-top: 5%;
                 width: 200px;
                 height: auto;
             }
@@ -471,8 +522,13 @@
                 height: auto;
             }
 
+            #footer-img{
+               width: 80px;
+               height: auto;
+            }
+
             p,li{
-                font-size: 1.5vw;
+                font-size: 1.8vw;
             }
             .logga{
                  margin-left:3%;

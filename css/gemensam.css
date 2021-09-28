@@ -23,7 +23,7 @@ background-image:url(../img/dog-313357_960_720.jpg);
     width: 90%;
     height: auto;
     row-gap:10px;
-    background-color: white;
+    background-color:#ffffff;
 	grid-template-columns: repeat(1,1fr);
 	grid-template-rows: auto;
     grid-template-areas: 
@@ -73,9 +73,21 @@ background-image:url(../img/dog-313357_960_720.jpg);
     grid-area:main;
 }
 #footer{
+    
+    width: 100%;
+    padding-top: 2%;
+    padding-bottom: 2%;
     grid-area:footer;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     height: auto;
     background-color: var(--background-header-nav);
+}
+
+.footer-text{
+    color: var(--Text_Color_1);
+    font-family: paragraph-font;
 }
 
 

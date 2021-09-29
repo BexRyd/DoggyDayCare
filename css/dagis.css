@@ -20,9 +20,7 @@
     "price-list"
 
 }
-#footer{
-    width: 100%;
-}
+
 #header-img{
     display: flex;
     justify-content: center;
@@ -266,6 +264,8 @@ height: auto;
         #pugs{
             display: none;
         }
+
+        /*hamburgermeny*/
         #burger{
           position: absolute;
           cursor: pointer;
@@ -281,8 +281,8 @@ height: auto;
         .nav-text{
         position: absolute;
         right:0px;
-        height: 85.5vh;
-        top:12vh;
+        height: 87.5vh;
+        top:11.5vh;
         background-color: rgb(81, 92, 112);
         width:30%;
         display: flex;
@@ -335,8 +335,8 @@ height: auto;
 
         .nav-text{
         
-            height: 86.5vh;
-            top:12.5vh;
+            height: 88vh;
+            top:12vh;
         }
         li.meny,a{
             font-size: 100%;

@@ -90,6 +90,69 @@
         }
 
 
+        
+        
+        .icon-box1{
+            grid-area: icon-box1;
+            width: 10%;
+            height: 10%;
+        }   
+        
+        .icon-box2{
+            grid-area: icon-box1;
+            width: 10%;
+            height: 10%;
+            
+        }  
+        .icon-box3{
+            grid-area: icon-box3;
+            width: 10%;
+            height: 10%;
+            
+        }    
+        
+        .icon-box4{
+            grid-area: icon-box4;
+            width: 10%;
+            height: 10%;
+            
+        }
+        
+        
+        .textbox-img1,
+        .textbox-img2,
+        .textbox-img3{
+            width: 15%;
+            margin-left: auto;
+            margin-right: auto;
+            
+        }
+        
+        #textbox-bottom{
+            display: flex;
+            flex-direction: row;
+            justify-content:space-between ;
+        }
+        
+        #icon-box5{
+            display: flex;
+            justify-content: space-evenly;
+            grid-area: icon-box5;
+            margin-top: 10%;
+        }
+        
+        #icon-box{
+    
+            margin-top: 40%;
+            width: 160%;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        
+        
+        
         @media screen and (max-width:1600px){
 
 
@@ -133,7 +196,7 @@
 
             li.meny,a{
 
-                font-size: 120%;
+                font-size: 105%;
             }
 
             .main-pic{
@@ -204,6 +267,31 @@
 
     @media screen and (max-width:960px) and (min-width:768px){
 
+        .main-pic{
+            width: 500px;
+            height: auto;
+        }
+            
+        li.meny,a{
+
+            font-size: 90%;
+        }
+
+            .icon{
+                display: none;
+            }
+
+
+            .hagaparken,
+            .vanadislunden,
+            .chill-dog{
+              width: 200px;
+            }           
+
+            .corgi{
+                width: 300px;
+            }
+
             .pug{
                 display: none;
             }
@@ -211,71 +299,13 @@
             #icon-box{
                 display: flex;
                 flex-direction: column;
+                margin-left: 70px;
+                gap: 70px;
                     
             }
 
             #textbox2{
-                width: 90%;
+                width: 100%;
             } 
     }        
         
-            #icon-box{
-        
-                margin-top: 40%;
-                width: 160%;
-                display: flex;
-                flex-direction: row;
-                flex-wrap: wrap;
-                justify-content: space-around;
-            }
-        
-        
-        .icon-box1{
-            grid-area: icon-box1;
-            width: 10%;
-            height: 10%;
-        }   
-        
-        .icon-box2{
-            grid-area: icon-box1;
-            width: 10%;
-            height: 10%;
-           
-        }  
-        .icon-box3{
-            grid-area: icon-box3;
-            width: 10%;
-            height: 10%;
-        
-        }    
-   
-        .icon-box4{
-            grid-area: icon-box4;
-            width: 10%;
-            height: 10%;
-            
-        }
-
-
-        .textbox-img1,
-        .textbox-img2,
-        .textbox-img3{
-            width: 15%;
-            margin-left: auto;
-            margin-right: auto;
-
-        }
-
-        #textbox-bottom{
-            display: flex;
-            flex-direction: row;
-            justify-content:space-between ;
-        }
-
-       #icon-box5{
-            display: flex;
-            justify-content: space-evenly;
-            grid-area: icon-box5;
-            margin-top: 10%;
-        }
-    

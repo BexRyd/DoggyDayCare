@@ -44,7 +44,7 @@ background-image:url(../img/dog-313357_960_720.jpg);
     width: 90%;
     grid-area: header;
     background-color: var(--background-header-nav);
-    height: 23%;
+    height: 100px;
 }
 
     .nav-text{ 

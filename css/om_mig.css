@@ -1,31 +1,15 @@
 
-.img-box{
-  
+#header-img{
     width: 90%;
-    margin-top: 10%;
-}
-.img-box > img{
-    display:block;
-    width: 90%;
-  
-    border-radius: 4%;
+    display:flex;
+    justify-content: center;
 }
 
-  /*standard skärm */
 
-    #main{
-        width: 90%; 
-        margin-top: 5%;
-        display:grid;
-        height: auto;;
-        justify-items: center;
-        grid-template-columns:repeat(1,1fr) ;
-        grid-template-rows: auto;
-        grid-gap:20px;
-      
+    .meny-pic{
+        width: 90%;
     }
 
-  
 
     h1{
         color:#F77D26; 
@@ -59,29 +43,19 @@
         flex-direction: column;
         justify-content: space-between;
         position:relative;
-      
-
-     
     }
-   .thumb-1,.thumb-2,.thumb-3,.thumb-4{
-     
+
+
+   .bilder {
+       width: 90%;
        display:flex;
        color: #444;
        box-shadow: 0 3px 6px rgba(0, 0,0, 0.1);
        border-radius: 5%;
+       padding-bottom: 10%;
+       background-size: cover;
+       background-position: center center;
    }
-
-
-
-
-    
-    .thumb{
-        padding-bottom: 10%;
-        background-size: cover;
-        background-position: center center;
-    }
-
-
     article{
        
         display: flex;
@@ -90,93 +64,120 @@
         padding: 60px;
     }
 
-   
-   
+    #footer{
+        width: 100%;
+      
+    }
 
+    
+  /*standard skärm */
+
+  #main{
+    width: 90%; 
+   /* width: 1240px;*/
+    margin-top: 5%;
+    display:grid;
+    height: auto;
+    grid-gap:3%;
+    justify-items: center;
+    grid-template-columns:repeat(4,1fr) ;
+    grid-template-rows: auto;
+
+    grid-template-areas: 
+    "item-1 item-1 item-2 item-3"
+    "item-4  .       .     . ";
+  
+    
+}
     /*Breda desktopskärmar: stöttre än 1200px*/
     @media screen and (max-width:1400px){
-        .img-box{
-            width: 90%;
-            display:grid;
-            grid-template-areas:repeat(1,1fr);
-        }
-
+       
         #main{
             width: 90%;
             display:grid;
-            grid-template-areas:repeat(4,1fr);  
-         
+            grid-template-columns:repeat(4,1fr);  
+            grid-template-rows: auto;
+    
+            grid-template-areas: 
+            "item-1 item-1 item-2 item-3"
+            "item-4 none   .        . ";
+              
         }
-           .item-1{
-               grid-column: 1/5;
-           }
-
-            .item-3{
-                grid-column: 2/5;
-           }
+        #item{
+            width: 90%;
+            display: grid;
         }
+    }
+      
     
 /*Mindre desktopskärmar :mellan 1200px och 960px*/
-   @media screen (max-width:1200px)and(min-width:960px){
+   @media screen and (max-width:1300px){
 
-    .img-box{
-        width: 90%;
-        display:grid;
-        grid-template-areas:repeat(1,1fr);
-       }
+    
 
        #main{
-           grid-template-columns: repeat(4,1fr); 
-       }
+           grid-template-columns: repeat(2,1fr); 
+           grid-template-rows: auto;
+   
+           grid-template-areas: 
+           "item-1 item-2 "
+           "item-3  item-4";  
+           
+        }
+        .bilder {
+            width:90%;
+        }
+     }
 
-       .item-1{
-        grid-column: 1/5;
-       }
-
-       .item-3{
-         grid-column: 2/5;
-     } 
-    }
+     
       
  /*Tablets såsom Ipad: mellan 960px och 768px*/
  @media screen and (max-width:950px){
 
-    .img-box{
+    #main{
         width: 90%;
         display:grid;
-        grid-template-areas:repeat(1,1fr);
+        grid-template-columns:repeat(2,1fr);    
+        grid-template-rows: auto;
 
-    }
-     #main{
-        width: 90%;
-        display:grid;
-        grid-template-areas:repeat(4,1fr);    
+        grid-template-areas: 
+        "item-1  item-2"
+        "item-3  item-4";      
+      }
+       .bilder{
+           width: 70%;
+       }
+
+       .row {
+           width: auto;
+       }
      }
-    }
-  
+       
   
 /*För mobiltelfoner: mindre än 768px*/
-   @media screen and (max-width:500px){
+   @media screen and (max-width:721px){
       
-    .img-box{
-        width: 90%;
-        display:grid;
-        grid-template-areas:repeat(1,1fr);
-    }
 
     #main {
         width: 90%;
         display:grid;
-        grid-template-columns:1fr 1fr ;      
-        }
+        grid-template-columns: 1fr ;
+        
+    
+        grid-template-rows: auto;
 
-    .item-1{
-       grid-column: 1/5;
-        }
+        grid-template-areas: 
+       
+        "item-1"
+        "item-2"
+        "item-3"  
+        "item-4";
+      
+      }  
+    }
 
-   .item-3{
-        grid-column:1/5 ;
-        }  
-  }
+        
+
+  
  
 

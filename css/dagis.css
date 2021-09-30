@@ -444,7 +444,7 @@ height: auto;
             }
 
             #footer{
-                width: 105%;
+                width: 100%;
             }
 
 
@@ -544,5 +544,50 @@ height: auto;
 
           
 
+
+    }
+
+    @media screen and (max-width:400px){
+
+       
+      /*img size*/
+      #syringe{
+          display:none;
+
+      }
+      #pomeranian-img{
+          width: 200px;
+          height: auto;
+      }
+      #pugs{
+          display: none;
+      }
+     
+      #bulldog-pic{
+          width: 200px;
+          height:auto;
+      }
+     
+     
+      #sick-dog{
+          margin-top: 5%;
+          width: 200px;
+          height: auto;
+      }
+      #price-pic{
+          
+          width: 200px;
+          height: auto;
+      }
+
+      #footer-img{
+       display: none;
+      }
+
+      .meny-pic{
+
+        margin-top:15%;
+        width: 290px;
+    }
 
     }

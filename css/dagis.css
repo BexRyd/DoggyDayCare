@@ -4,7 +4,7 @@
 
 #main{
     display: grid;
-    width: 90%;
+    width: 100%;
     height: auto;
     justify-items: center;
     margin-top:5%; 
@@ -20,9 +20,7 @@
     "price-list"
 
 }
-#footer{
-    width: 100%;
-}
+
 #header-img{
     display: flex;
     justify-content: center;
@@ -30,7 +28,6 @@
 }
 
 .meny-pic{
-
     margin-top:7.5%;
 }
 /*grids container for routines*/
@@ -140,7 +137,7 @@ height: auto;
     }
     #price-list-box{
         border: dotted 2px rgba(38, 51, 67, 0.8);
-        width: 800px;
+        width: 700px;
         height: 200px;
         padding:2%;
     }
@@ -211,6 +208,7 @@ height: auto;
             height: 200px;
          
         }
+       
     }
 /*For small desktop*/
     @media screen and (max-width:1300px) and (min-width:960px)
@@ -266,6 +264,8 @@ height: auto;
         #pugs{
             display: none;
         }
+
+        /*hamburgermeny*/
         #burger{
           position: absolute;
           cursor: pointer;
@@ -281,8 +281,8 @@ height: auto;
         .nav-text{
         position: absolute;
         right:0px;
-        height: 85.5vh;
-        top:12vh;
+        height: 87.5vh;
+        top:11.5vh;
         background-color: rgb(81, 92, 112);
         width:30%;
         display: flex;
@@ -321,7 +321,12 @@ height: auto;
 
         #disease-container{
             flex-direction:row-reverse;
-            
+            justify-content: center;
+   
+        }
+
+        #disease-textbox{
+            width: 40%;
         }
         #Rules-container{
             justify-content: center;
@@ -330,8 +335,8 @@ height: auto;
 
         .nav-text{
         
-            height: 86.5vh;
-            top:12.5vh;
+            height: 88vh;
+            top:12vh;
         }
         li.meny,a{
             font-size: 100%;
@@ -379,6 +384,7 @@ height: auto;
             
             width: 200px;
             height: auto;
+            margin-left: 5%;
         }
         #price-pic{
             
@@ -438,7 +444,7 @@ height: auto;
             }
 
             #footer{
-                width: 105%;
+                width: 100%;
             }
 
 
@@ -538,5 +544,50 @@ height: auto;
 
           
 
+
+    }
+
+    @media screen and (max-width:400px){
+
+       
+      /*img size*/
+      #syringe{
+          display:none;
+
+      }
+      #pomeranian-img{
+          width: 200px;
+          height: auto;
+      }
+      #pugs{
+          display: none;
+      }
+     
+      #bulldog-pic{
+          width: 200px;
+          height:auto;
+      }
+     
+     
+      #sick-dog{
+          margin-top: 5%;
+          width: 200px;
+          height: auto;
+      }
+      #price-pic{
+          
+          width: 200px;
+          height: auto;
+      }
+
+      #footer-img{
+       display: none;
+      }
+
+      .meny-pic{
+
+        margin-top:15%;
+        width: 290px;
+    }
 
     }

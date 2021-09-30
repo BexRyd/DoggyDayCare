@@ -179,7 +179,7 @@
             #textbox2{
                 display: flex;
                 flex-direction: column;
-                border: solid black;
+                
                 margin-top: 20%;
                 width: 400px;
             }
@@ -267,6 +267,11 @@
 
     @media screen and (max-width:960px) and (min-width:768px){
 
+        #main{
+            width: 100%;
+        }
+
+
         .main-pic{
             width: 500px;
             height: auto;
@@ -276,7 +281,7 @@
 
             font-size: 90%;
         }
-
+            .icon1,
             .icon{
                 display: none;
             }
@@ -286,26 +291,73 @@
             .vanadislunden,
             .chill-dog{
               width: 200px;
-            }           
+              margin-top: 100px;
+            }          
 
             .corgi{
-                width: 300px;
+                width: 400px;
+                margin-top: 30px;
+                
+                
             }
 
             .pug{
-                display: none;
+
+               width: 270px;
+               
+               margin-top: 300px;
             }
 
             #icon-box{
+                height: 720px;
                 display: flex;
                 flex-direction: column;
+                justify-content:space-around ;
                 margin-left: 70px;
-                gap: 70px;
+                gap: 90px;
+                width: 150px;
+                margin-top: 70px;
+                
                     
             }
 
+            #textbox1{
+                
+                margin-top: 30px;
+                margin-right: 50px;
+                
+                
+            }
+
+            
+
             #textbox2{
-                width: 100%;
-            } 
+                width: 400px;
+                height: 300px;
+                margin-right: 100px;
+                margin-bottom: 50px;
+                
+                
+                
+            }
+
+            #img-box2{
+                margin-top: 400px;
+                margin-left: 100px;
+            }
+
+            p{
+               font-size:1.3vw;
+            }
+
+            #textbox-bottom{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                justify-content: space-evenly;
+
+            }
+            
+            
     }        
         

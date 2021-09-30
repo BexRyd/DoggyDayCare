@@ -16,7 +16,7 @@
 
 .kontaktsBild{
 
-    width: 100%;
+    width: 50%;
 
 }
 
@@ -26,9 +26,7 @@
     margin-top:11.2%;
 }
 
-.li.meny,a{
-    font-size: 100%;
-}
+
 
 #footer {
     width: 100%;
@@ -135,7 +133,18 @@ fieldset {
      
  } 
   
-
+ #main{
+    display: grid;
+    width: 70%;
+    grid-gap: 1%;
+    grid-template-columns: 50px,1fr;
+    grid-template-rows: auto repeat(1,1fr);
+    
+    grid-template-areas: 
+    
+    "box-2 box-3"
+    "box-4 box-4"
+ }
 @media screen and (max-width:1400px) {
 
     #main{
@@ -154,7 +163,9 @@ fieldset {
         ;
 
         }
-       
+        .li.meny,a{
+            font-size: 100%;
+        }
      }
        
      

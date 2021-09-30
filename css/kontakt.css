@@ -26,9 +26,7 @@
     margin-top:11.2%;
 }
 
-.li.meny,a{
-    font-size: 100%;
-}
+
 
 #footer {
     width: 100%;
@@ -165,7 +163,9 @@ fieldset {
         ;
 
         }
-       
+        .li.meny,a{
+            font-size: 100%;
+        }
      }
        
      

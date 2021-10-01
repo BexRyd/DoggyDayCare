@@ -1,7 +1,5 @@
 
-#header-nav{
-    align-items: center;
-}
+
 /*main content container width grids*/
 
 #main{
@@ -26,7 +24,10 @@
 #header-img{
     display: flex;
     justify-content: center;
-   
+}
+
+#header-nav{
+    align-items: center;
 }
 
 .meny-pic{
@@ -51,21 +52,21 @@
 /*grid-area for container routines*/
 
 #textbox-routines{
+
   grid-area: textbox-routines;
   padding-left:12%;
   padding-right:5%;
-  
 }
+
 #pomeranian-img{
 
-width: 350px;
-height: auto;
-  grid-area:pomeranian-img;
-    
+  width: 350px;
+  height: auto;
+  grid-area:pomeranian-img; 
 }
 
 
-/*grid-area for main container*/
+/*grid-area for main container and flex-box containers*/
 
 
 #list-routines-container{
@@ -78,6 +79,9 @@ height: auto;
 }
 #Rules-container{
     grid-area: Rules-container;
+    display: flex;
+    height: auto;
+    flex-direction: row;
    
 }
 #disease-container{
@@ -92,6 +96,11 @@ height: auto;
     
     grid-area: price-list;
     height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    margin-top: 10%;
+    margin-bottom: 10%;
 }
 
 /*list for routines*/ 
@@ -117,26 +126,14 @@ height: auto;
     list-style-image: url(../img/close-1.png);
     }
 
-    /*container-list flexbox*/
+   
 
     
 
-    #bulldog-pic{
-        border-radius: 20%;
-    }
+    
 
-    /*rules container*/
-    #Rules-container, #price-list{
-     
-        display: flex;
-        height: auto;
-        flex-direction: row;
-    }
-    #price-list{
-        justify-content:flex-end;
-        margin-top: 10%;
-        margin-bottom: 10%;
-    }
+    
+   
     #price-list-box{
         border: dotted 2px rgba(38, 51, 67, 0.8);
         width: 700px;

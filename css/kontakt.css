@@ -295,5 +295,8 @@ fieldset {
         margin-top:11.2%;
     } 
     
+    .nav-text {
+        display: flex;
+    }
 }
 

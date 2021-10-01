@@ -281,7 +281,7 @@ fieldset {
     #header-nav{
         width: 90%;
         margin-left: 0px;
-        height: 10%
+        height: auto;
     }
 
     .kontaktsBild{

@@ -298,25 +298,40 @@
     
         
         
-    @media screen and (max-width:1100px) and (min-width:960px){
-            
+    @media screen and (max-width:1000px) and (min-width:768px){
         .hagaparken,
         .vanadislunden,
         .chill-dog{
-            width: 250px;
-            
+            width: 150px;
+            margin-top: 80px;
         }
-    
-    
+
+        #text-box2{
+            width: 85%;
+        }
+
+        /* #icon-pug{
+            margin-left: 20%;
+            
+        } */
+        .pug{
+            width: 250px;
+        }
+
     }
-    
            
 
     @media screen and (max-width:960px) and (min-width:768px){
 
+        .Grids-Container{
+           row-gap: 0%;
+           
+        }
+
         
         #main{
             width: 100%;
+
         }
 
 
@@ -337,13 +352,13 @@
         }
 
 
-        .hagaparken,
+        /* .hagaparken,
         .vanadislunden,
         .chill-dog{
-            width: 220px;
+            width: 100px;
             margin-left: auto;
             margin-right: auto;
-        }          
+        }           */
 
         
         .corgi{
@@ -380,8 +395,8 @@
 
             
         #textbox2{
-            width: 380px;
-            height: 480px;
+            width: 400px;
+            height: 500px;
             margin-right: 100px;
             margin-bottom: 50px;
         }
@@ -418,10 +433,7 @@
         }
 
         
-        #header-nav{
-            width: 90%;
-            height: 20%;
-        }
+        
 
         .dagis-button,
         .kontakt-button{
@@ -583,9 +595,7 @@
             margin-bottom: auto;
         }
 
-        #header-nav{
-            width: 88.603%;
-        }
+       
 
         .dagis-button,
         .kontakt-button{

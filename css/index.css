@@ -118,7 +118,8 @@
         #textbox-bottom{
             display: flex;
             flex-direction: row;
-            justify-content:space-between ;
+            flex-wrap: wrap;
+            justify-content:space-evenly;
         }
         
         
@@ -203,7 +204,7 @@
 
         
         #header-nav{
-            width: 89.6%;
+            width: 90%;
         }
 
         .corgi{
@@ -265,12 +266,7 @@
         }
 
         
-        #img-box3{
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            justify-content: space-evenly;
-        }
+        
 
     
         .hagaparken,
@@ -294,7 +290,7 @@
 
         
         #header-nav{
-            width: 89.5%;
+            width: 90%;
         }
 
     
@@ -344,13 +340,14 @@
         .hagaparken,
         .vanadislunden,
         .chill-dog{
-            width: 200px;
-            margin-top: 100px;
+            width: 220px;
+            margin-left: auto;
+            margin-right: auto;
         }          
 
         
         .corgi{
-            width: 400px;
+            width: 300px;
             margin-top: 30px;
             margin-left: 100px;
                 
@@ -360,7 +357,7 @@
         
         .pug{
             width: 230px;
-            margin-top: 400px;
+            margin-top: 300px;
         }
 
         
@@ -383,8 +380,8 @@
 
             
         #textbox2{
-            width: 400px;
-            height: 500px;
+            width: 380px;
+            height: 480px;
             margin-right: 100px;
             margin-bottom: 50px;
         }
@@ -401,12 +398,7 @@
         }
 
         
-        #textbox-bottom{
-            display: flex;
-            flex-direction: row;
-            flex-wrap: nowrap;
-            justify-content: space-evenly;
-        }
+        
 
             
         .h3-textbottom{
@@ -427,7 +419,8 @@
 
         
         #header-nav{
-            width: 89.33%;
+            width: 90%;
+            height: 20%;
         }
 
         .dagis-button,
@@ -436,6 +429,10 @@
            height: 30px;
             
 
+        }
+
+        footer{
+            height: 20%;
         }
             
             
@@ -554,7 +551,7 @@
         
         
         #header-nav{
-            width: 89.15%;
+            width: 90%;
         }
 
         .dagis-button,

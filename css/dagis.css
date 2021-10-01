@@ -494,10 +494,7 @@
                 right: 10%;
             }
 
-            #footer{
-                width: 100%;
-            }
-
+          
 
             /*change direktion in grid and flex-box*/
             #routines-container{
@@ -524,6 +521,11 @@
                align-items: center;
             }
 
+            #Rules-textbox{
+
+                width: 80%;
+            }
+
             #disease-container{
 
                 flex-direction:column;
@@ -533,6 +535,7 @@
 
             #disease-textbox{
 
+                width: 80%;
                 margin-right: 10%;
             }
             
@@ -548,7 +551,7 @@
 
             #textbox-routines{
 
-               width: 70%;
+               width: 80%;
              
               }
 
@@ -577,6 +580,7 @@
                 display: none;
             }
            
+            
             #bulldog-pic{
 
                 width: 300px;
@@ -587,7 +591,7 @@
             #sick-dog{
 
                 margin-top: 5%;
-                width: 200px;
+                width: 300px;
                 height: auto;
             }
 
@@ -642,15 +646,13 @@
           width: 200px;
           height:auto;
       }
-     
-     
+      
       #sick-dog{
 
-          margin-top: 5%;
-          width: 200px;
-          height: auto;
+        width: 200px;
+        height: auto;
 
-      }
+    }
 
       #price-pic{
           
@@ -683,18 +685,7 @@
         height: auto;
     }
 
-     
-     #textbox-routines{
-
-       width:200px;
-     }
-    
-     #main{
-
-         width:100%;
-     }
-
-    
+       
     #header-img{
 
      padding-top: 15%;
@@ -707,7 +698,7 @@
         row-gap:0%;
     }
    
-    
+
     /*font size*/
 
     p,li{

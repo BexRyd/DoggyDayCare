@@ -303,7 +303,7 @@
         .vanadislunden,
         .chill-dog{
             width: 150px;
-            margin-top: 80px;
+            margin-top: 150px;
         }
 
         #text-box2{
@@ -364,8 +364,8 @@
 
         
         .pug{
-            width: 230px;
-            margin-top: 300px;
+           margin-top: 400px;
+           margin-left: 200px;
         }
 
         
@@ -375,8 +375,8 @@
             flex-direction: column;
             justify-content:space-around ;
             margin-left: 70px;
-            gap: 90px;
-            width: 150px;
+            gap: 30px;
+            width: 130px;
             margin-top: 70px;
         }
 
@@ -388,8 +388,8 @@
 
             
         #textbox2{
-            width: 300px;
-            height: 500px;
+            width: 350px;
+            height: 600px;
             margin-right: 100px;
             margin-bottom: 50px;
         }
@@ -399,6 +399,7 @@
             margin-top: 400px;
             margin-left: 100px;
         }
+
         
 
         

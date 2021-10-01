@@ -1,3 +1,20 @@
+.body{
+    width: 100%;
+    height: auto;
+}
+
+
+.nav-text{
+    order:2;
+    padding-right: 2%;
+    width: 90%;
+    height: auto;
+    margin-top: 3%;
+    margin-right: auto;
+    margin-left: auto;
+}
+ 
+   
 
 #header-img{
     width: 90%;
@@ -8,6 +25,7 @@
 
     .meny-pic{
         width: 90%;
+        margin-top: 10%;
     }
 
 
@@ -60,6 +78,7 @@
         padding: 60px;
     }
     #footer{
+        grid-area: footer;
         width: 100%;
       
     }
@@ -113,7 +132,7 @@
       
     
 /*Mindre desktopskärmar :mellan 1200px och 960px*/
-   @media screen and (max-width:1300px){
+   @media screen and (max-width:1100px){
 
     
 
@@ -141,7 +160,7 @@
      
       
  /*Tablets såsom Ipad: mellan 960px och 768px*/
- @media screen and (max-width:950px){
+ @media screen and (max-width:959px){
 
     #main{
         width: 100%;
@@ -153,7 +172,11 @@
         "item-1  item-2"
         "item-3  item-4";      
       }
-  
+      #header-nav{
+        width: 90%;
+        margin-left: 0px;
+    
+    }
        .bilder{
            display: grid;
            width: 90%;
@@ -169,12 +192,12 @@
        
   
 /*För mobiltelfoner: mindre än 768px*/
-   @media screen and (max-width:721px){
+   @media screen and (max-width:767px){
       
 
     #main {
-        width: 90%;
         display:grid;
+        width: 90%; 
         grid-template-columns: repeat(1,1fr);
         grid-template-rows: auto;
         grid-template-areas: 
@@ -184,12 +207,20 @@
         "item-3"  
         "item-4";
       } 
-      
+           
+    #header-nav{
+        width: 90%;
+        margin-left: 0px;
     
-   
+    }
+
+      
       .bilder{
         display: grid;
         width: 90%;
     }
-   
+    .row{
+        display:grid;
+        width: 80%;
+    }
 }

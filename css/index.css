@@ -21,7 +21,7 @@
             
             grid-template-areas:
             "text1 text1 img1 img1 img1 img1 img1 img1"
-            "icon-box1 icon-box2 icon-box3 icon-box4 text2 text2 text2 text2"
+            "paw-1 paw-2 paw-3 paw-4 text2 text2 text2 text2"
             "img2 img2 img2 img2 img2 img2 img2 img2"
             "img-bottom img-bottom img-bottom img-bottom img-bottom img-bottom img-bottom img-bottom"
             "icon-box5 icon-box5 icon-box5 icon-box5 icon-box5 icon-box5 icon-box5 icon-box5"
@@ -74,22 +74,22 @@
         }
 
 
-        .icon-box1{
+        .paw-1{
             grid-area: icon-box1;
             width: 10%;
             height: 10%;
         }   
         
         
-        .icon-box2{
-            grid-area: icon-box1;
+        .paw-2{
+            grid-area: icon-box2;
             width: 10%;
             height: 10%;
             
         }  
         
         
-        .icon-box3{
+        .paw-3{
             grid-area: icon-box3;
             width: 10%;
             height: 10%;
@@ -97,7 +97,7 @@
         }    
         
         
-        .icon-box4{
+        .paw-4{
             grid-area: icon-box4;
             width: 10%;
             height: 10%;
@@ -130,7 +130,7 @@
         }
         
         
-        #icon-box{
+        #icon-pug{
     
             margin-top: 40%;
             width: 160%;
@@ -140,7 +140,20 @@
             justify-content: space-around;
             
         }
+
+       
+        .dagis-button,
+        .kontakt-button{
+            background-color: rgb(38, 51, 67);
+            color:whitesmoke ;
+            width: 120px;
+            height: 40px;
+            font-size: 1.2vw;
+
+        }
         
+        
+
         
         
     @media screen and (max-width:1600px){
@@ -173,7 +186,7 @@
             flex-direction: column;
             
             margin-top: 20%;
-            width: 400px;
+            width: 500px;
         }
 
         
@@ -193,6 +206,13 @@
             width: 89.6%;
         }
 
+        .corgi{
+           width: 100%;
+           margin-top: 30%;
+        }
+        
+
+    
     }
 
    
@@ -240,7 +260,7 @@
 
             
         #textbox2{
-            width: 350px;
+            width: 430px;
             margin-right: 10px;
         }
 
@@ -277,6 +297,7 @@
             width: 89.5%;
         }
 
+    
     }
     
         
@@ -289,6 +310,8 @@
             width: 250px;
             
         }
+    
+    
     }
     
            
@@ -329,18 +352,19 @@
         .corgi{
             width: 400px;
             margin-top: 30px;
+            margin-left: 100px;
                 
                 
         }
 
         
         .pug{
-            width: 270px;
-            margin-top: 300px;
+            width: 230px;
+            margin-top: 400px;
         }
 
         
-        #icon-box{
+        #icon-pug{
             height: 720px;
             display: flex;
             flex-direction: column;
@@ -360,7 +384,7 @@
             
         #textbox2{
             width: 400px;
-            height: 300px;
+            height: 500px;
             margin-right: 100px;
             margin-bottom: 50px;
         }
@@ -405,6 +429,14 @@
         #header-nav{
             width: 89.33%;
         }
+
+        .dagis-button,
+        .kontakt-button{
+           width: 90px;
+           height: 30px;
+            
+
+        }
             
             
     }
@@ -440,6 +472,7 @@
         }
 
         .corgi{
+            margin-top: 0%;
             width: 60%;
         }
 
@@ -464,7 +497,7 @@
             justify-content: space-evenly;
         }
 
-        #icon-box{
+        #icon-pug{
             width: 100%;
             margin-top: 0%;
             margin-bottom: 50px;
@@ -483,10 +516,10 @@
             margin-left: auto;
         }
 
-        .icon-box1,
-        .icon-box2,
-        .icon-box3,
-        .icon-box4{
+        .paw-1,
+        .paw-2,
+        .paw-3,
+        .paw-4{
             display: none;
         }
 
@@ -524,7 +557,15 @@
             width: 89.15%;
         }
 
+        .dagis-button,
+        .kontakt-button{
+           width: 70px;
+           height: 20px;
+            
 
+        }
+
+    
     }
 
 
@@ -548,6 +589,21 @@
         #header-nav{
             width: 88.603%;
         }
+
+        .dagis-button,
+        .kontakt-button{
+           width: 50px;
+           height: 20px;
+            
+
+        }
+
+        .corgi{
+            margin-top: 0%;
+        }
+
+    
+    
     }
       
 

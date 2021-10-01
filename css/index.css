@@ -118,7 +118,8 @@
         #textbox-bottom{
             display: flex;
             flex-direction: row;
-            justify-content:space-between ;
+            flex-wrap: wrap;
+            justify-content:space-evenly;
         }
         
         
@@ -203,7 +204,7 @@
 
         
         #header-nav{
-            width: 89.6%;
+            width: 90%;
         }
 
         .corgi{
@@ -265,12 +266,7 @@
         }
 
         
-        #img-box3{
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            justify-content: space-evenly;
-        }
+        
 
     
         .hagaparken,
@@ -294,7 +290,7 @@
 
         
         #header-nav{
-            width: 89.5%;
+            width: 90%;
         }
 
     
@@ -302,25 +298,40 @@
     
         
         
-    @media screen and (max-width:1100px) and (min-width:960px){
-            
+    @media screen and (max-width:1000px) and (min-width:768px){
         .hagaparken,
         .vanadislunden,
         .chill-dog{
-            width: 250px;
-            
+            width: 150px;
+            margin-top: 80px;
         }
-    
-    
+
+        #text-box2{
+            width: 85%;
+        }
+
+        /* #icon-pug{
+            margin-left: 20%;
+            
+        } */
+        .pug{
+            width: 250px;
+        }
+
     }
-    
            
 
     @media screen and (max-width:960px) and (min-width:768px){
 
+        .Grids-Container{
+           row-gap: 0%;
+           
+        }
+
         
         #main{
             width: 100%;
+
         }
 
 
@@ -341,16 +352,17 @@
         }
 
 
-        .hagaparken,
+        /* .hagaparken,
         .vanadislunden,
         .chill-dog{
-            width: 200px;
-            margin-top: 100px;
-        }          
+            width: 100px;
+            margin-left: auto;
+            margin-right: auto;
+        }           */
 
         
         .corgi{
-            width: 400px;
+            width: 300px;
             margin-top: 30px;
             margin-left: 100px;
                 
@@ -360,7 +372,7 @@
         
         .pug{
             width: 230px;
-            margin-top: 400px;
+            margin-top: 300px;
         }
 
         
@@ -401,12 +413,7 @@
         }
 
         
-        #textbox-bottom{
-            display: flex;
-            flex-direction: row;
-            flex-wrap: nowrap;
-            justify-content: space-evenly;
-        }
+        
 
             
         .h3-textbottom{
@@ -426,9 +433,7 @@
         }
 
         
-        #header-nav{
-            width: 89.33%;
-        }
+        
 
         .dagis-button,
         .kontakt-button{
@@ -436,6 +441,10 @@
            height: 30px;
             
 
+        }
+
+        footer{
+            height: 20%;
         }
             
             
@@ -554,7 +563,7 @@
         
         
         #header-nav{
-            width: 89.15%;
+            width: 90%;
         }
 
         .dagis-button,
@@ -586,9 +595,7 @@
             margin-bottom: auto;
         }
 
-        #header-nav{
-            width: 88.603%;
-        }
+       
 
         .dagis-button,
         .kontakt-button{

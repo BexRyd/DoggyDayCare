@@ -276,6 +276,7 @@ height: auto;
 
         #header-nav{
             align-items: center;
+          
         }
          body{
             overflow-x:hidden;
@@ -283,10 +284,11 @@ height: auto;
         .nav-text{
         position: absolute;
         right:0px;
-        height: 86vh;
+        height: 88vh;
         top:12vh;
         background-color: rgb(81, 92, 112);
         width:30%;
+        border-radius: 20px;
         display: flex;
         flex-direction: column;
         align-items: center;

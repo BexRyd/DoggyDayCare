@@ -1,3 +1,20 @@
+.body{
+    width: 100%;
+    height: auto;
+}
+
+
+.nav-text{
+    order:2;
+    padding-right: 2%;
+    width: 90%;
+    height: auto;
+    margin-top: 3%;
+    margin-right: auto;
+    margin-left: auto;
+}
+ 
+   
 
 #header-img{
     width: 90%;
@@ -8,6 +25,7 @@
 
     .meny-pic{
         width: 90%;
+        margin-top: 10%;
     }
 
 
@@ -29,11 +47,7 @@
      letter-spacing: 1px;
     
  }
- 
-    
-
-    
-    
+  
     .class[item-]{
        
       
@@ -63,12 +77,11 @@
         justify-content: space-between;
         padding: 60px;
     }
-
     #footer{
+        grid-area: footer;
         width: 100%;
       
     }
-
     
   /*standard skärm */
 
@@ -103,15 +116,23 @@
             "item-4 none   .        . ";
               
         }
-        #item{
-            width: 90%;
+      
+        .bilder{
             display: grid;
+            width: 90%;
         }
+        
+        .row {
+            display: grid;
+            width: 90%;
+        }
+            
+       
     }
       
     
 /*Mindre desktopskärmar :mellan 1200px och 960px*/
-   @media screen and (max-width:1300px){
+   @media screen and (max-width:1100px){
 
     
 
@@ -124,18 +145,25 @@
            "item-3  item-4";  
            
         }
+       
         .bilder {
+            display: grid;
             width:90%;
         }
+        .row {
+            display: grid;
+            width: 90%;
+        }
+            
      }
 
      
       
  /*Tablets såsom Ipad: mellan 960px och 768px*/
- @media screen and (max-width:950px){
+ @media screen and (max-width:959px){
 
     #main{
-        width: 90%;
+        width: 100%;
         display:grid;
         grid-template-columns:repeat(2,1fr);    
         grid-template-rows: auto;
@@ -144,40 +172,75 @@
         "item-1  item-2"
         "item-3  item-4";      
       }
+      #header-nav{
+        width: 90%;
+        margin-left: 0px;
+    
+    }
        .bilder{
-           width: 70%;
+           display: grid;
+           width: 90%;
        }
 
        .row {
-           width: auto;
+           display: grid;
+           width: 90%;
        }
+     
+        
      }
        
   
 /*För mobiltelfoner: mindre än 768px*/
-   @media screen and (max-width:721px){
+   @media screen and (max-width:767px){
       
 
     #main {
-        width: 90%;
         display:grid;
-        grid-template-columns: 1fr ;
-        
-    
+        width: 90%; 
+        grid-template-columns: repeat(1,1fr);
         grid-template-rows: auto;
-
         grid-template-areas: 
        
         "item-1"
         "item-2"
         "item-3"  
         "item-4";
+      } 
+           
+    #header-nav{
+        width: 90%;
+        margin-left: 0px;
+        font-size: 50%;
+    
+    }
+      .looga{
+          width: 50%;
+        
+      }
       
-      }  
+      .bilder{
+        display: grid;
+        width: 90%;
+    }
+    .row{
+        display:grid;
+        width: 80%;
+    }
+    #header-nav{
+        width: 90%;
+        margin-left: 0px;
+      
+        
     }
 
-        
-
-  
- 
-
+      #footer{
+          margin-top: 50%;
+          font-size: 200%;
+      }
+    .meny-pic{
+        width:100%;
+        height: auto;
+        margin-top:25%;
+    } 
+}

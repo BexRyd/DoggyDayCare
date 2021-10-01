@@ -1,211 +1,618 @@
-*{
-    box-sizing: border-box;
-}
-
-
-
-#header-img{
-    margin-top: 50px;
-    display: flex;
-    justify-content: center;
-}
-
-
-#main{
-   
-width: auto;
-display: grid;
-grid-template-columns: repeat(8,1fr);
-grid-template-rows: auto;
-justify-items: space-between;
- 
-
-grid-template-areas:
-"text1 text1 img1 img1 img1 img1 img1 img1"
-"icon-box1 icon-box2 icon-box3 icon-box4 text2 text2 text2 text2"
-"img2 img2 img2 img2 img2 img2 img2 img2"
-"img-bottom img-bottom img-bottom img-bottom img-bottom img-bottom img-bottom img-bottom"
-"icon-box5 icon-box5 icon-box5 icon-box5 icon-box5 icon-box5 icon-box5 icon-box5"
-}
-
-
-
-
-
-
-
-
-
-
-
-.main-pic{
-    width:800px;
-    height: auto;
-}
-
-
-
-
-    
-   
-    #textbox1{
-        margin-left: 20%;
-        margin-top: 20%;
-        width: 100%;
-        height: auto;
-        grid-area:text1;
         
+        *{
+            box-sizing: border-box;
+        }
+
+
+        #header-img{
+            margin-top: 50px;
+            display: flex;
+            justify-content: center;
+        }
+
+
+        #main{
+        
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(8,1fr);
+            grid-template-rows: auto;
+            justify-items: space-between;
+            
+            grid-template-areas:
+            "text1 text1 img1 img1 img1 img1 img1 img1"
+            "paw-1 paw-2 paw-3 paw-4 text2 text2 text2 text2"
+            "img2 img2 img2 img2 img2 img2 img2 img2"
+            "img-bottom img-bottom img-bottom img-bottom img-bottom img-bottom img-bottom img-bottom"
+            "icon-box5 icon-box5 icon-box5 icon-box5 icon-box5 icon-box5 icon-box5 icon-box5"
+        }
+
+
+        #textbox1{
+            margin-left: 20%;
+            margin-top: 20%;
+            width: 100%;
+            height: auto;
+            grid-area:text1;
+        }
+
+        
+        #img-box1{
+            grid-area:img1;
+            height: auto;
+            margin-top: 70%;
+            margin-right: 30%;
+        }
+
+
+        #img-box2{
+            grid-area:img2;
+            margin-top: 20%;
+            height: auto;
+        }
+
+        
+        #img-box3{
+            width: 100%;
+            margin-top: 20%;
+            margin-left: auto;
+            margin-right: auto;
+            display: flex;
+            flex-direction: row;
+            justify-content:space-evenly;
+            flex-wrap: wrap;
+            gap: 4%;
+            grid-area: img-bottom;
+        }
+
+        
+        #textbox2{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            grid-area:text2;
+        }
+
+
+        .paw-1{
+            grid-area: icon-box1;
+            width: 10%;
+            height: 10%;
+        }   
+        
+        
+        .paw-2{
+            grid-area: icon-box2;
+            width: 10%;
+            height: 10%;
+            
+        }  
+        
+        
+        .paw-3{
+            grid-area: icon-box3;
+            width: 10%;
+            height: 10%;
+            
+        }    
+        
+        
+        .paw-4{
+            grid-area: icon-box4;
+            width: 10%;
+            height: 10%;
+            
+        }
+        
+        
+        .textbox-img1,
+        .textbox-img2,
+        .textbox-img3{
+            width: 15%;
+            margin-left: auto;
+            margin-right: auto;
+            
+        }
+        
+        
+        #textbox-bottom{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content:space-evenly;
+        }
+        
+        
+        #icon-box5{
+            display: flex;
+            justify-content: space-evenly;
+            grid-area: icon-box5;
+            margin-top: 10%;
+        }
+        
+        
+        #icon-pug{
+    
+            margin-top: 40%;
+            width: 160%;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            
+        }
+
        
+        .dagis-button,
+        .kontakt-button{
+            background-color: rgb(38, 51, 67);
+            color:whitesmoke ;
+            width: 120px;
+            height: 40px;
+            font-size: 1.2vw;
+
+        }
+        
+        
+
+        
+        
+    @media screen and (max-width:1600px){
+
+
+        .main-pic{
+            width:800px;
+            height: auto;
+        }
+        
+        
+        .main-pic{
+                margin-top:11.2%;
+        }
+        
+        
+        li.meny,a{
+            font-size: 120%;
+        }
+
+        
+        .icon-box1{
+            width: 50px;
+            height: 50px;
+        }
+
+            
+        #textbox2{
+            display: flex;
+            flex-direction: column;
+            
+            margin-top: 20%;
+            width: 500px;
+        }
+
+        
+        .footer-text{
+            margin-top: auto;
+            margin-bottom: auto;
+        }
+
+        
+        .nav-text{
+            margin-top: auto;
+            margin-bottom: auto;
+        }
+
+        
+        #header-nav{
+            width: 90%;
+        }
+
+        .corgi{
+           width: 100%;
+           margin-top: 30%;
+        }
+        
+
+    
     }
 
-    #img-box1{
+   
+
+   
+
+    @media screen and (max-width:1300px) and (min-width:960px){
+
+
+
+        li.meny,a{
+
+            font-size: 105%;
+        }
+
+        
+        .main-pic{
+            width: 600px;
+            height: auto;
+        }
+
+        
+        #img-box1{
+    
+            
+            height: auto;
+            margin-top: 70%;
+        }
+
+            
+        .icon{
+            display: none;
+        }
+
+        
+        .corgi{
+            width: 400px;
+        }
+
+
+        .pug{
+            margin-top: 30px;
+            width: 300px;
+        }
+
+            
+        #textbox2{
+            width: 430px;
+            margin-right: 10px;
+        }
+
+        
+        
+
+    
+        .hagaparken,
+        .vanadislunden,
+        .chill-dog{
+            width: 300px;
+            
+        }
+
+        
+        .footer-text{
+            margin-top: auto;
+            margin-bottom: auto;
+        }
+
+        
+        .nav-text{
+            margin-top: auto;
+            margin-bottom: auto;
+        }
+
+        
+        #header-nav{
+            width: 90%;
+        }
+
+    
+    }
+    
+        
+        
+    @media screen and (max-width:1000px) and (min-width:768px){
+        .hagaparken,
+        .vanadislunden,
+        .chill-dog{
+            width: 150px;
+            margin-top: 80px;
+        }
+
+        #text-box2{
+            width: 85%;
+        }
+
+        /* #icon-pug{
+            margin-left: 20%;
+            
+        } */
+        .pug{
+            width: 250px;
+        }
+
+    }
+           
+
+    @media screen and (max-width:960px) and (min-width:768px){
+
+        .Grids-Container{
+           row-gap: 0%;
+           
+        }
+
+        
+        #main{
+            width: 100%;
+
+        }
+
+
+        .main-pic{
+            width: 500px;
+            height: auto;
+        }
+            
+        
+        li.meny,a{
+            font-size: 90%;
+        }
+            
+            
+        .icon1,
+        .icon{
+            display: none;
+        }
+
+
+        /* .hagaparken,
+        .vanadislunden,
+        .chill-dog{
+            width: 100px;
+            margin-left: auto;
+            margin-right: auto;
+        }           */
+
+        
+        .corgi{
+            width: 300px;
+            margin-top: 30px;
+            margin-left: 100px;
+                
+                
+        }
+
+        
+        .pug{
+            width: 230px;
+            margin-top: 300px;
+        }
+
+        
+        #icon-pug{
+            height: 720px;
+            display: flex;
+            flex-direction: column;
+            justify-content:space-around ;
+            margin-left: 70px;
+            gap: 90px;
+            width: 150px;
+            margin-top: 70px;
+        }
+
+        
+        #textbox1{
+            margin-top: 30px;
+            margin-right: 50px;
+        }
+
+            
+        #textbox2{
+            width: 400px;
+            height: 500px;
+            margin-right: 100px;
+            margin-bottom: 50px;
+        }
+
+        
+        #img-box2{
+            margin-top: 400px;
+            margin-left: 100px;
+        }
+
+        
+        p{
+            font-size:1.3vw;
+        }
+
+        
+        
+
+            
+        .h3-textbottom{
+            font-size: 1.5vw;
+        }
+
+        
+        .footer-text{
+            margin-top: auto;
+            margin-bottom: auto;
+        }
+
+        
+        .nav-text{
+            margin-top: auto;
+            margin-bottom: auto;
+        }
+
+        
+        
+
+        .dagis-button,
+        .kontakt-button{
+           width: 90px;
+           height: 30px;
+            
+
+        }
+
+        footer{
+            height: 20%;
+        }
+            
+            
+    }
+    
+    
+    @media screen and (max-width:767px){
+        
+        #main{
+            grid-template-columns: repeat(1,1fr);
+            grid-template-rows:1fr;
+            grid-template-areas:
+            "text1"
+            "img1"
+            "text2"
+            "img2"
+        }
+
+        #img-box3{
+            display: none;
+        }
+
+        #icon-box5{
+            display: none;
+        }
+
+        .main-pic{
+            width: 80%;
+        }
+
+        li.meny,a{
+
+            font-size: 80%;
+        }
+
+        .corgi{
+            margin-top: 0%;
+            width: 60%;
+        }
+
+        .pug{
+            width: 50%;
+        }
+
+        #img-box1{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: center;
+            margin-left:auto;
+            margin-right: auto;
+            margin-top: 20%;
+        }
+
+        #img-box2{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+        }
+
+        #icon-pug{
+            width: 100%;
+            margin-top: 0%;
+            margin-bottom: 50px;
+        }
+
+        #textbox1{
+            width: 60%;
+            margin-top: 50px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        #textbox2{
+            width: 60%;
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+        .paw-1,
+        .paw-2,
+        .paw-3,
+        .paw-4{
+            display: none;
+        }
+
+        
+        p{
+            font-size: 1.5vw;
+        }
+
+        .logga{
+            width: 40%;
+            height: 50%;
+            margin-top: auto;
+            margin-bottom: auto;
+        }
+
+        #footer-img{
+            width: 70px;
+            height: 60px;
+        }
+
+        .nav-text{
+            margin-top:auto;
+            margin-bottom: auto;
+            margin-left: 2%;
+            font-size: 90%;
+        }
+
+        .footer-text{
+            margin-top: auto;
+            margin-bottom: auto;
+        }
+        
+        
+        #header-nav{
+            width: 90%;
+        }
+
+        .dagis-button,
+        .kontakt-button{
+           width: 70px;
+           height: 20px;
+            
+
+        }
+
+    
+    }
+
+
+    @media screen and (max-width:556px){
+        
+        
+        .logga{
+            display: none;
+        }
+
+        .nav-text{
+            width: 100%;
+            margin: auto;
+        }
+
+        .footer-text{
+            margin-top: auto;
+            margin-bottom: auto;
+        }
+
        
-      grid-area:img1;
-      height: auto;
-      margin-top: 70%;
-      margin-right: 30%;
-        
+
+        .dagis-button,
+        .kontakt-button{
+           width: 50px;
+           height: 20px;
+            
+
+        }
+
+        .corgi{
+            margin-top: 0%;
+        }
+
+    
+    
     }
-    #img-box2{
-        grid-area:img2;
-       margin-top: 20%;
-        
-        height: auto;
-        
-       
-        
-        
-    }
+      
 
-    #img-box3{
-        width: 100%;
-        margin-top: 20%;
-        
-        margin-left: auto;
-        margin-right: auto;
-        
-        display: flex;
-        flex-direction: row;
-        justify-content:space-evenly;
-        flex-wrap: wrap;
-        
-        gap: 4%;
-
-
-        grid-area: img-bottom;
-    }
-
-  
-
-
-
-    #textbox2{
-        display: flex;
-        flex-direction: column;
-        
-        margin-top: 30%;
-        margin-right: 50px;
-        width: 600px;
-        height: auto;
-        grid-area:text2;
-       
-        
-        
-        
-    }
 
    
-   
-   
-   
-
-
-    
-    
-    
-
-
-
-
-    
-
-
-#icon-box{
-    
-    margin-top: 40%;
-    width: 120%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-
-
-
-.icon-box1{
-grid-area: icon-box1;
-width: 10%;
-height: 10%;
-
-
-
-}
-.icon-box2{
-grid-area: icon-box2;
-width: 10%;
-height: 10%;
-}
-.icon-box3{
-grid-area: icon-box3;
-width: 10%;
-height: 10%;
-    
-   
-   
-
-}
-.icon-box4{
-grid-area: icon-box4;
-width: 10%;
-height: 10%;
-    
-}
-
-
-.textbox-img1,
-.textbox-img2,
-.textbox-img3{
-    
-    
-   
-    width: 20%;
-    margin-left: auto;
-    margin-right: auto;
-
-}
-
-#div{
-    display: flex;
-    flex-direction: row;
-}
-
-#icon-box5{
-    display: flex;
-    justify-content: space-evenly;
-    grid-area: icon-box5;
-    margin-top: 10%;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-  

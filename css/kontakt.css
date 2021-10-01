@@ -300,5 +300,9 @@ fieldset {
         width: 100%;
         
     }
+    li{
+        padding-left: 2%;
+        padding-right: 2%;
+    }
 }
 
